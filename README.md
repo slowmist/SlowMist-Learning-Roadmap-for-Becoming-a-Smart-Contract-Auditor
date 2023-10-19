@@ -1,5 +1,5 @@
 
-by:[ Kong'](https://twitter.com/TycheKong)@SlowMist Team
+By:[ Kong'](https://twitter.com/TycheKong)@慢雾安全团队
 
 - [**前言**](#前言)
 - [**路线图**](#路线图)
@@ -37,9 +37,9 @@ by:[ Kong'](https://twitter.com/TycheKong)@SlowMist Team
 
 ## **前言**
 
-本技能表是慢雾安全团队智能合约安全审计工程师的技能集合，旨在为团队成员列出进行智能合约审计的所需技能。并驱动团队成员形成研究、创造、工程的自我进化思维。
+本技能表是慢雾安全团队智能合约安全审计工程师的技能集合，旨在为团队成员列出智能合约安全审计的所需技能并驱动团队成员形成研究、创造、工程的自我进化思维。
 
-智能合约审计技能主要分为四个部分：寻门而入、倚门而歌、融会贯通、破门而出，分别由浅至深的列出在各个阶段所需掌握的专业技能。而在此之前首先需要一些通用技能武装我们的大脑，出发准备部分将会是我们审计之路的锚点。
+智能合约安全审计技能主要分为四个部分：寻门而入、倚门而歌、融会贯通、破门而出，由浅至深地列出在各个阶段所需掌握的专业技能。而在此之前，需要一些通用技能武装我们的大脑，出发准备部分将会是我们审计之路的锚点。
 
 ## **路线图**
 
@@ -53,8 +53,8 @@ by:[ Kong'](https://twitter.com/TycheKong)@SlowMist Team
 
 认知与实践是密不可分的，理论与实践应相统一。
 
-- 学习应有所输出，输出应有所实践。
-- [SlowMist 知识库](https://github.com/slowmist/Knowledge-Base)
+- 学习应有所输出，输出应有所实践
+- [慢雾安全团队知识库](https://github.com/slowmist/Knowledge-Base)
 - Github 开源文化
 
 #### **2. 守正出奇**
@@ -62,18 +62,18 @@ by:[ Kong'](https://twitter.com/TycheKong)@SlowMist Team
 道德和法律是安全从业者的底线，安全从业者在坚守底线的同时也要锻造过硬的技术，在关键时刻出奇制胜。
 
 - 坚守底线
-  - 审计人员应遵守法律，坚守道德底线。
+  - 审计人员应遵守法律，坚守道德底线
 - 负责任的披露
-  - SlowMist 预警流程
+  - 慢雾(SlowMist)预警流程
   - [FIRST 道德守则](https://www.first.org/global/sigs/ethics/ethics-first)
 - 黑客思维
   - 坚守底线的同时出奇制胜
   - 守正：保持敬畏，坚守底线
-  - 出奇：脑洞要大，心要细，反向思维，开放性思维。
+  - 出奇：脑洞要大，心要细，反向思维，开放性思维
 
 #### **3. 团队意识**
 
-单个人的能力覆盖面总是会有所遗漏，团队战斗可以很好的补全个人的不足。
+单个人的能力覆盖面总是有限，团队战斗可以很好地补全个人的不足。
 
 - 协同审计流
   - SlowMist MistPunk 审计工作台做协同，通过技术的方式保证审计质量，同时沉淀审计经验
@@ -93,7 +93,7 @@ by:[ Kong'](https://twitter.com/TycheKong)@SlowMist Team
 
 - [什么是区块链？](https://www.investopedia.com/terms/b/blockchain.asp)
 - [区块链可视化演示](https://www.youtube.com/watch?v=_160oMzblY8)
-- [SlowMist 区块链入门科普](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4ODQ3NTM2OA==&action=getalbum&album_id=1378673890158936067&scene=126#wechat_redirect)
+- [慢雾(SlowMist)区块链入门科普](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4ODQ3NTM2OA==&action=getalbum&album_id=1378673890158936067&scene=126#wechat_redirect)
 - [加密货币工作原理](https://www.bilibili.com/video/BV11x411i72w/)
 - 阅读[《精通比特币》](https://github.com/inoutcode/bitcoin_book_2nd)
 - 阅读[《精通以太坊》](https://github.com/inoutcode/ethereum_book)
@@ -101,7 +101,7 @@ by:[ Kong'](https://twitter.com/TycheKong)@SlowMist Team
 
 #### **2. 智能合约基础知识**
 
-在不同的区块链可能会使用不同的语言用于构建智能合约，例如：Solidity、Move、Rust、Vyper、Cairo、C++ 等。目前 EVM 兼容链使用的 Solidity 仍是最流行且易于入门的智能合约语言，应该确保完整阅读完其语言文档。且应了解运行在 Ethereum(以太坊) 上的代币合约的设计标准与具体的合约实现。在此基础上了解智能合约是如何做到可升级的，并实操掌握智能合约的编写与测试。
+在不同的区块链可能会使用不同的语言构建智能合约，例如：Solidity、Move、Rust、Vyper、Cairo、C++ 等。目前 EVM 兼容链使用的 Solidity 仍是最流行且易于入门的智能合约语言，应该确保完整阅读完其语言文档。且应了解运行在 Ethereum(以太坊) 上的代币合约的设计标准与具体的合约实现。在此基础上了解智能合约是如何做到可升级的，并实操掌握智能合约的编写与测试。
 
 - [Solidity 官方文档](https://docs.soliditylang.org/en/latest/)
 - 阅读[《精通以太坊》](https://github.com/inoutcode/ethereum_book)
@@ -141,13 +141,13 @@ by:[ Kong'](https://twitter.com/TycheKong)@SlowMist Team
   - 流行的智能合约测试和调试框架
     - [Foundry](https://book.getfoundry.sh/)
       - 简便的[测试工具](https://book.getfoundry.sh/forge/tests)
-      - 强大的[Cheatcodes](https://book.getfoundry.sh/cheatcodes/)
+      - 强大的 [Cheatcodes](https://book.getfoundry.sh/cheatcodes/)
       - [最佳实践](https://book.getfoundry.sh/tutorials/best-practices)
     - [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started#overview)
       - 善用其强大的[插件](https://hardhat.org/hardhat-runner/plugins)
     - [Brownie](https://eth-brownie.readthedocs.io/en/stable/)
     - [Tenderly](https://tenderly.co/)
-      - 简便的开发测试环境[DevNet](https://docs.tenderly.co/devnets/intro-to-devnets)
+      - 简便的开发测试环境 [DevNet](https://docs.tenderly.co/devnets/intro-to-devnets)
       - 快速[交易模拟](https://docs.tenderly.co/simulations-and-forks/intro-to-simulations)
       - [可视化的交易 Debug 工具](https://docs.tenderly.co/debugger/how-to-use-tenderly-debugger)
   - 与智能合约交互
@@ -158,7 +158,7 @@ by:[ Kong'](https://twitter.com/TycheKong)@SlowMist Team
 
 #### **3. 常见的智能合约漏洞**
 
-在学习完成智能合约基础知识后应掌握其常见的基础漏洞，并知晓漏洞原理。其中 Quillhash 整理的漏洞列表聚合了多个来源，其较为完备的展示了当前常见的智能合约漏洞类型。*(但对于初学者来说建议进行反复阅读所有列表以加深印象)*
+在学习完成智能合约基础知识后应掌握其常见的基础漏洞，并知晓漏洞原理。其中 Quillhash 整理的漏洞列表聚合了多个来源，其较为完备的展示了当前常见的智能合约漏洞类型。*(但对于初学者来说建议反复阅读所有列表以加深印象)*
 
 - [DASP Top 10](https://www.dasp.co/)
 - [SWC](https://swcregistry.io/) 智能合约弱点分类
@@ -189,11 +189,11 @@ by:[ Kong'](https://twitter.com/TycheKong)@SlowMist Team
 
 ## **倚门而歌**
 
-在通过对区块链与智能合约的基础知识进行掌握后便推开了 Solidity 智能合约审计的大门，门后的智能合约世界仍极为广阔。本阶段将从去中心化金融(DeFi)开始深入的探索门后更为广阔的智能合约应用。
+掌握了区块链与智能合约的基础知识后，我们便推开了 Solidity 智能合约安全审计的大门，门后的智能合约世界仍极为广阔。本阶段将从去中心化金融(DeFi) 开始深入地探索门后更为广阔的智能合约应用。
 
 #### **1. 去中心化金融(DeFi)基础知识**
 
-区块链和智能合约为 DeFi 的构建成为可能，DeFi 的出现也使得 Ethereum 等公链快速发展。在做进一步探索之前，理应了解 DeFi 是什么？
+区块链和智能合约使 DeFi 的构建成为可能，DeFi 的出现也使得 Ethereum 等公链快速发展。在做进一步探索之前，理应了解 DeFi 是什么？
 
 - 阅读《How To DeFi: Beginner》
 - 阅读《How To DeFi: Advanced》
@@ -205,7 +205,7 @@ by:[ Kong'](https://twitter.com/TycheKong)@SlowMist Team
 
 #### **2. 去中心化金融(DeFi)头部协议**
 
-在初步了解了 DeFi 是什么后，应进一步了解它们实现了什么/是如何实现的？通过阅读当前头部去中心化金融(DeFi)协议的技术文档初步了解头部 DeFi 协议是如何实现的。
+在初步了解了 DeFi 是什么后，应进一步了解它们实现了什么/是如何实现的？通过阅读当前头部去中心化金融(DeFi)协议的技术文档以初步了解头部 DeFi 协议是如何实现的。
 
 - [MakerDAO](https://docs.makerdao.com/) (CDP)
 - [AAVE](https://docs.aave.com/hub/) (Lending)
@@ -241,7 +241,7 @@ by:[ Kong'](https://twitter.com/TycheKong)@SlowMist Team
 
 #### **4. 了解去中心化金融(DeFi) 风险**
 
-DeFi 不只局限于智能合约，前端、后端也是其重要的组成部分，绝大部分用户通过前端与 DeFi 进行交互。因此在了解了 DeFi 的运作与实现后，通过前端安全实践、后端安全配置要求与 DeFi 历史漏洞对其面临的风险进行学习与实践。
+DeFi 并不局限于智能合约，前端、后端也是其重要的组成部分，绝大部分用户通过前端与 DeFi 进行交互。因此在了解了 DeFi 的运作与实现后，通过前端安全实践、后端安全配置要求与 DeFi 历史漏洞对其面临的风险进行学习与实践。
 
 - 了解 Web 前端安全
   - 阅读 SlowMist Web 前端最佳安全实践指南
@@ -264,7 +264,7 @@ DeFi 不只局限于智能合约，前端、后端也是其重要的组成部分
 
 #### **5. 阅读审计报告**
 
-在进行审计时，个人的角度总是会有所遗漏，无法百分百覆盖所有情况。因此通过阅读他人的审计报告以学习不同的姿势和思考方式很重要。
+在进行审计时，个人的角度总是会有所遗漏，无法覆盖所有情况。因此通过阅读他人的审计报告以学习不同的漏洞发现方式和审计思考方式很重要。
 
 - [SlowMist Audit Reports](https://github.com/slowmist/Knowledge-Base)
 - [Solodit Aggregation](https://solodit.xyz/)
@@ -291,13 +291,13 @@ DeFi 不只局限于智能合约，前端、后端也是其重要的组成部分
 - [QuillCTF](https://www.quillaudits.com/academy/ctf)
 - [Curta CTF](https://www.curta.wtf/)
 - [Paradigm CTF](https://ctf.paradigm.xyz/)
-- [ciphershastra CTF](https://ciphershastra.com/index.html)
+- [Cipher Shastra CTF](https://ciphershastra.com/index.html)
 - [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/)
 - [unhackedctf](https://github.com/unhackedctf)
 
 ## **融会贯通**
 
-在对头部 DeFi 的探索过程中将建立起对 DeFi 的深刻理解，接下来将通过从底层 EVM 到 DeFi 上层经济模型的学习继续加深对智能合约的理解。并且在此过程中独立审计复杂智能合约以沉淀自己的审计方法论。
+在对头部 DeFi 的探索过程中将建立起对 DeFi 的深刻理解，接下来通过从底层 EVM 到 DeFi 上层经济模型的学习来继续加深对智能合约的理解。并且在此过程中，可以通过独立审计复杂智能合约以沉淀自己的审计方法论。
 
 #### **1. 深入了解 EVM**
 
@@ -312,7 +312,7 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 
 #### **2. Gas 优化设计**
 
-链上交易的执行都需要付出 Gas 成本，对于复杂合约来说优化 Gas 可以降低用户交互成本，吸引用户使用。这就要求审计人员需要对 Gas 优化设计有一定的了解。
+链上交易的执行都需要付出 Gas 成本。对于复杂合约来说，优化 Gas 可以降低用户交互成本，吸引用户使用。这就要求审计人员需要对 Gas 优化设计有一定的了解。
 
 - [Gas 优化参考 1](https://www.alchemy.com/overviews/solidity-gas-optimization)
 - [Gas 优化参考 2](https://www.alchemy.com/overviews/solidity-gas-optimization)
@@ -333,13 +333,13 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 
 #### **4. 拆解分析复杂 DeFi 协议**
 
-在将这些技能融会贯通后，审计人员应具备对复杂的高原创性 DeFi 协议进行拆解分析能力。
+在将这些技能融会贯通后，审计人员应具备拆解分析复杂的高原创性 DeFi 协议的能力。
 
 - To be released...
 
 #### **5. 与同道者同行**
 
-学习其他优秀同道者所研究的可以给我们更多的启发，拓宽我们的视野。
+学习其他优秀同道者所研究的内容可以给我们更多的启发，拓宽我们的视野。
 
 - [Bytes032](https://blog.bytes032.xyz/)
 - [Noxx](https://noxx.substack.com/)
@@ -357,7 +357,7 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 
 #### **6. 快速应急分析**
 
-在独立审计过足够多的复杂项目，经历过各种业务场景，沉淀了大量知识后，融汇贯通能够快速应对突发安全事件并进行快速分析与输出。下面是一些常用的分析工具：
+在独立审计过足够多的复杂项目，并经历过各种业务场景，沉淀了大量知识后，能够使我们快速应对突发安全事件并进行快速分析与输出。下面是一些常用的分析工具：
 
 - 合约反编译工具
   - [Dedaub](https://library.dedaub.com/decompile)
@@ -379,7 +379,7 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 
 #### **7. Bug Bounty 实战**
 
-进行实战的场景挑战以最真实的场景检测能力。
+进行实战，以最真实的场景检测能力。
 
 - [Immunefi](https://immunefi.com)
 - [BugRap](https://bugrap.io)
@@ -391,7 +391,7 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 
 ## **破门而出**
 
-在由 Solidity 智能合约寻门而入后，不应再满足于在单一领域兜兜转转。而是应该沉淀出自己方法论，大胆的凿出一道新门，破门而出，在深耕当前领域的同时拓展其他领域。
+在由 Solidity 智能合约寻门而入后，不应再满足于在单一领域兜兜转转，而是应该沉淀出自己方法论，大胆地凿出一道新门，破门而出，在深耕当前领域的同时拓展其他领域。
 
 ![skill](./res/skill.png)
 
@@ -399,15 +399,15 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 
 在从 Solidity 智能合约入门后不应只局限于此，也应拓展其他类型、语言，并对其涉及的审计方法有所沉淀。
 
-- 不只局限于 Solidity，Rust/Vyper/Cairo/Move 等智能合约语言也应了解。
-- 不只局限于智能合约，BTC/Cosmos/Solana/Starknet/EVM L2 等其他流行公链也应了解。
-- 不只局限于区块链，Web2.0/移动端等也应了解。
-- 深入了解密码学领域。
+- 不只局限于 Solidity，Rust/Vyper/Cairo/Move 等智能合约语言也应了解
+- 不只局限于智能合约，BTC/Cosmos/Solana/Starknet/EVM L2 等其他流行公链也应了解
+- 不只局限于区块链，Web2.0/移动端等也应了解
+- 深入了解密码学领域
 - ...
 
 #### **2. 方法论**
 
-在完成对智能合约审计技能的融会贯通后，可以沉淀出属于自己的方法论，能够帮助我们快速的触及问题的核心并确定解决思路，好的方法论能让我们事半功倍。
+将智能合约安全审计技能融会贯通后，可以沉淀出属于自己的方法论，帮助我们快速的触及问题的核心并确定解决思路，好的方法论能让我们事半功倍。
 
 - 对审计工作的方法论
 - 对智能合约安全实践的方法论
@@ -417,7 +417,7 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 
 #### **3. 创造力**
 
-创造力是我们能够克敌制胜的法宝，是我们保持前进所需具备的。在按部就班的掌握技能后，再武装我们的思维能够使我们走得更远。
+创造力是我们能够克敌制胜的法宝，是我们保持前进所需具备的东西。在按部就班地掌握技能后，再武装我们的思维，这能够使我们走得更远。
 
 - 保持好奇心
   - 对新事物的敏感性
@@ -427,11 +427,11 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
   - 对知识保持敬畏
   - 探索新知识
 - 黑客思维
-  - 黑客也可以是一种精神也可以是一种思维，守正出奇。
+  - 黑客也可以是一种精神也可以是一种思维，守正出奇
 - 善于研究
-  - 在进行研究时应有实际的结果/文档输出。
+  - 在进行研究时应有实际的结果/文档输出
 - 工程化
-  - 对于好点子，好的的研究成果应该善于工程化，并在实战中进行检验。
+  - 对于好点子，好的的研究成果应该善于工程化，并在实战中进行检验
     - SlowMist MistEye Monitoring System
     - SlowMist Contract Visibility Analysis Tool
     - SlowMist Static Vulnerability Scanner
@@ -445,5 +445,6 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 - [23pds](https://twitter.com/IM_23pds)
 - [T41nk](https://twitter.com/T41nk_)
 - Doublenine
-- flusha
+- Flush
 - Blue
+- Lizi
