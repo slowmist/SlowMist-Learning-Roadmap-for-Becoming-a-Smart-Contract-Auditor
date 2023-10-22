@@ -138,6 +138,7 @@ By:[ Kong'](https://twitter.com/TycheKong)@慢雾安全团队
   - 熟悉使用包管理器
     - [npm](https://www.npmjs.com/)
     - [yarn](https://yarnpkg.com/)
+    - [pnpm](https://pnpm.io/)
   - 流行的智能合约测试和调试框架
     - [Foundry](https://book.getfoundry.sh/)
       - 简便的[测试工具](https://book.getfoundry.sh/forge/tests)
@@ -151,10 +152,11 @@ By:[ Kong'](https://twitter.com/TycheKong)@慢雾安全团队
       - 快速[交易模拟](https://docs.tenderly.co/simulations-and-forks/intro-to-simulations)
       - [可视化的交易 Debug 工具](https://docs.tenderly.co/debugger/how-to-use-tenderly-debugger)
   - 与智能合约交互
-    - 了解[ JSON-RPC](https://ethereum.org/en/developers/docs/apis/json-rpc/)
+    - 了解 [JSON-RPC](https://ethereum.org/en/developers/docs/apis/json-rpc/)
     - [ethers.js](https://docs.ethers.org/)
     - [Web3.js](https://web3js.readthedocs.io/)
     - [Web3.py](https://web3py.readthedocs.io/)
+    - [viem](https://viem.sh/)
 
 #### **3. 常见的智能合约漏洞**
 
