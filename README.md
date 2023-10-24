@@ -1,256 +1,272 @@
+By: [Kong'](https://twitter.com/TycheKong)@SlowMist Security Team
 
-By:[ Kong'](https://twitter.com/TycheKong)@慢雾安全团队
+中文版：**[慢雾(SlowMist)智能合约审计技能树](README_CN.md)**
 
-- [**前言**](#前言)
-- [**路线图**](#路线图)
-- [**出发准备**](#出发准备)
-    - [**1. 知行合一**](#1-知行合一)
-    - [**2. 守正出奇**](#2-守正出奇)
-    - [**3. 团队意识**](#3-团队意识)
-- [**寻门而入**](#寻门而入)
-    - [**1. 区块链基础知识**](#1-区块链基础知识)
-    - [**2. 智能合约基础知识**](#2-智能合约基础知识)
-    - [**3. 常见的智能合约漏洞**](#3-常见的智能合约漏洞)
-    - [**4. 最佳实践与安全标准**](#4-最佳实践与安全标准)
-    - [**5. 简单 CTF 挑战**](#5-简单-ctf-挑战)
-- [**倚门而歌**](#倚门而歌)
-    - [**1. 去中心化金融(DeFi)基础知识**](#1-去中心化金融defi基础知识)
-    - [**2. 去中心化金融(DeFi)头部协议**](#2-去中心化金融defi头部协议)
-    - [**3. 深入阅读头部协议源代码**](#3-深入阅读头部协议源代码)
-    - [**4. 了解去中心化金融(DeFi) 风险**](#4-了解去中心化金融defi-风险)
-    - [**5. 阅读审计报告**](#5-阅读审计报告)
-    - [**6. CTF 挑战**](#6-ctf-挑战)
-- [**融会贯通**](#融会贯通)
-    - [**1. 深入了解 EVM**](#1-深入了解-evm)
-    - [**2. Gas 优化设计**](#2-gas-优化设计)
-    - [**3. DeFi 经济模型**](#3-defi-经济模型)
-    - [**4. 拆解分析复杂 DeFi 协议**](#4-拆解分析复杂-defi-协议)
-    - [**5. 与同道者同行**](#5-与同道者同行)
-    - [**6. 快速应急分析**](#6-快速应急分析)
-    - [**7. Bug Bounty 实战**](#7-bug-bounty-实战)
-- [**破门而出**](#破门而出)
-    - [**1. 突破局限**](#1-突破局限)
-    - [**2. 方法论**](#2-方法论)
-    - [**3. 创造力**](#3-创造力)
-- [**致谢**](#致谢)
+![cover](./res/cover.jpg)
+
+⚓️**Contents**
+
+- [**Introduction**](#introduction)
+- [**Roadmap**](#roadmap)
+- [**Preparation Required**](#preparation-required)
+  - [**1. Unity of Knowledge and Action**](#1-unity-of-knowledge-and-action)
+  - [**2. Defend Fundamentals \& Innovatively**](#2-defend-fundamentals--innovatively)
+  - [**3. Team Consciousness**](#3-team-consciousness)
+- [**Getting Started**](#getting-started)
+  - [**1. Basics of Blockchain**](#1-basics-of-blockchain)
+  - [**2. Fundamentals of Smart Contracts**](#2-fundamentals-of-smart-contracts)
+  - [**3. Common Smart Contract Vulnerabilities**](#3-common-smart-contract-vulnerabilities)
+  - [**4. Best Practices and Security Standards**](#4-best-practices-and-security-standards)
+  - [**5. Basic CTF Challenges**](#5-basic-ctf-challenges)
+- [**Diving Deeper Into Smart Contracts**](#diving-deeper-into-smart-contracts)
+  - [**1. Fundamentals of Decentralized Finance (DeFi)**](#1-fundamentals-of-decentralized-finance-defi)
+  - [**2. Leading Protocols in Decentralized Finance (DeFi)**](#2-leading-protocols-in-decentralized-finance-defi)
+  - [**3. Delve into the Source Code of Leading Protocols**](#3-delve-into-the-source-code-of-leading-protocols)
+  - [**4. Understand the Risks in Decentralized Finance (DeFi)**](#4-understand-the-risks-in-decentralized-finance-defi)
+  - [**5. Reviewing Audit Reports**](#5-reviewing-audit-reports)
+  - [**6. CTF Challenges**](#6-ctf-challenges)
+- [**Integration and Mastery**](#integration-and-mastery)
+  - [**1. Deep Dive into EVM**](#1-deep-dive-into-evm)
+  - [**2. Gas Optimization Design**](#2-gas-optimization-design)
+  - [**3. DeFi Economic Models**](#3-defi-economic-models)
+  - [**4. Deconstructing and Analyzing Complex DeFi Protocols**](#4-deconstructing-and-analyzing-complex-defi-protocols)
+  - [**5. Peer Learning**](#5-peer-learning)
+  - [**6. Rapid Incident Analysis**](#6-rapid-incident-analysis)
+  - [**7. Bug Bounty Practice**](#7-bug-bounty-practice)
+- [**Continuous Growth**](#continuous-growth)
+  - [**1. Overcoming Limitations**](#1-overcoming-limitations)
+  - [**2. Methodology**](#2-methodology)
+  - [**3. Creativity**](#3-creativity)
+- [**Acknowledgments**](#acknowledgments)
 
 
-## **前言**
+## **Introduction**
 
-本技能表是慢雾安全团队智能合约安全审计工程师的技能集合，旨在为团队成员列出智能合约安全审计的所需技能并驱动团队成员形成研究、创造、工程的自我进化思维。
+This skill chart is a compilation of the abilities required for SlowMist's security team's smart contract security auditors. It aims to enumerate the essential skills needed for smart contract security audits and inspire team members to adopt a mindset of research, innovation, and engineering evolution.
 
-智能合约安全审计技能主要分为四个部分：寻门而入、倚门而歌、融会贯通、破门而出，由浅至深地列出在各个阶段所需掌握的专业技能。而在此之前，需要一些通用技能武装我们的大脑，出发准备部分将会是我们审计之路的锚点。
+Smart contract security auditing skills are primarily divided into four parts: Finding the Entrance, Singing by the Door, Integrative Mastery, and Breaking Through. These stages progressively outline the expertise needed at each level. However, before diving into these, it's crucial to equip our minds with some foundational skills, which will serve as our anchor point in the audit journey.
 
-## **路线图**
+## **Roadmap**
 
-![Roadmap_bg2](./res/Roadmap.png)
+![Roadmap_bg2](./res/Roadmap_EN.png)
 
-## **出发准备**
+## **Preparation Required**
 
-所谓磨刀不误砍柴功，在正式出发之前强化自己的思维是必要的，这可以使我们走得坚定、走得更远。
+As Abraham Lincoln once said: “Give me six hours to chop down a tree and I will spend the first four sharpening the axe.” This same approach can be applied to smart contract auditing. Strengthening our mindset before starting is essential, allowing us to move with conviction and travel further.
 
-#### **1. 知行合一**
+### **1. Unity of Knowledge and Action**
 
-认知与实践是密不可分的，理论与实践应相统一。
+Cognition and execution go hand in hand. Theoretical knowledge and its practical application should align seamlessly.
 
-- 学习应有所输出，输出应有所实践
-- [慢雾安全团队知识库](https://github.com/slowmist/Knowledge-Base)
-- Github 开源文化
+- Learning should result in output, and output should be put into practice.
+- [SlowMist Security Team's Knowledge Base](https://github.com/slowmist/Knowledge-Base)
+- Embracing the open-source culture of GitHub
 
-#### **2. 守正出奇**
+### **2. Defend Fundamentals & Innovatively**
 
-道德和法律是安全从业者的底线，安全从业者在坚守底线的同时也要锻造过硬的技术，在关键时刻出奇制胜。
+Ethics and the law are the foundational principles for security professionals. While staunchly adhering to these principles, security professionals must also forge strong technical skills, surprising adversaries when least expected.
 
-- 坚守底线
-  - 审计人员应遵守法律，坚守道德底线
-- 负责任的披露
-  - 慢雾(SlowMist)预警流程
-  - [FIRST 道德守则](https://www.first.org/global/sigs/ethics/ethics-first)
-- 黑客思维
-  - 坚守底线的同时出奇制胜
-  - 守正：保持敬畏，坚守底线
-  - 出奇：脑洞要大，心要细，反向思维，开放性思维
+- Sticking to the Basics:
+  - Auditors should abide by the law and uphold ethical standards
+- Responsible Disclosure:
+  - SlowMist's alert procedure
+  - [FIRST's code of ethics](https://www.first.org/global/sigs/ethics/ethics-first)
+- Hacker’s Mentality:
+  - While adhering to principles, prevail with unexpected strategies
+  - Defend Fundamentals: Approach with reverence and always adhere to basic
+  - Innovative: Think outside the box, be meticulous, employ reverse and open-minded thinking
 
-#### **3. 团队意识**
+### **3. Team Consciousness**
 
-单个人的能力覆盖面总是有限，团队战斗可以很好地补全个人的不足。
+The capabilities of an individual are always limited, but teamwork can effectively compensate for personal shortcomings.
 
-- 协同审计流
-  - SlowMist MistPunk 审计工作台做协同，通过技术的方式保证审计质量，同时沉淀审计经验
+- Collaborative Audit Flow:
+  - Collaborative auditing on the SlowMist MistPunk workbench ensures audit quality through technical means and accumulates auditing experience
+- Audit Workflow:
+  - SlowMist's audit workflow ensures audit quality through managerial practices, serving to identify and fill in any gaps in the audit process
+- Hacking Time Culture:
+  - Team members are encouraged to engage in spontaneous intellectual exchanges and sharing, aligning team capabilities through these collaborative interactions and thereby elevating the overall team proficiency
 
-- 审计工作流
-  - SlowMist 审计工作流程，通过管理方式保证审计质量，同时为审计工作查缺补漏
-- Hacking Time 文化
-  - 团队成员随时随地的思维碰撞与分享，通过思维碰撞和分享对齐团队能力，提升团队整体能力
+## **Getting Started**
 
-## **寻门而入**
+The development of the cryptographic world to date encompasses disciplines such as cryptography, economics, and data science. Faced with the immense volume of knowledge in the cryptographic world, determining a point of entry is crucial. In this phase, we will start by exploring Ethereum and its smart contract language, Solidity, as a gateway into the world of cryptocurrency.
 
-加密世界发展至今其涵盖了密码学、经济学、数据科学等学科，面对知识体量极为庞大的加密世界，如何寻门而入是为关键。本阶段将从 Ethereum (以太坊) 及其智能合约语言 Solidity 开始寻找进入加密货币世界的大门。
+### **1. Basics of Blockchain**
 
-#### **1. 区块链基础知识**
+Before understanding what smart contracts are, one should first comprehend the blockchain platform on which they operate.
 
-在了解智能合约是什么之前，应该先了解智能合约所运行的区块链平台是什么。
+- [What is a blockchain?](https://www.investopedia.com/terms/b/blockchain.asp)
+- [Visual demonstration of blockchain](https://www.youtube.com/watch?v=_160oMzblY8)
+- [How cryptocurrencies work](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
+- Reading "[Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)"
+- Reading "[Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)"
+  - Emphasis should be on Chapters 1, 4, 5, 6, 7, 13, and 15
 
-- [什么是区块链？](https://www.investopedia.com/terms/b/blockchain.asp)
-- [区块链可视化演示](https://www.youtube.com/watch?v=_160oMzblY8)
-- [慢雾(SlowMist)区块链入门科普](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4ODQ3NTM2OA==&action=getalbum&album_id=1378673890158936067&scene=126#wechat_redirect)
-- [加密货币工作原理](https://www.bilibili.com/video/BV11x411i72w/)
-- 阅读[《精通比特币》](https://github.com/inoutcode/bitcoin_book_2nd)
-- 阅读[《精通以太坊》](https://github.com/inoutcode/ethereum_book)
-  - 当前应着重阅读第 1、4、5、6、7、13 和 15 章节
+### **2. Fundamentals of Smart Contracts**
 
-#### **2. 智能合约基础知识**
+Different blockchains might employ various languages to develop smart contracts, such as Solidity, Move, Rust, Vyper, Cairo, C++, etc. Currently, Solidity remains the most popular and beginner-friendly smart contract language for EVM-compatible chains. It's essential to thoroughly read its language documentation. Moreover, one should understand the design standards of token contracts running on Ethereum and their specific contract implementations. Building on this foundation, it's crucial to understand how smart contracts can be made upgradable and to practically master the writing and testing of smart contracts.
 
-在不同的区块链可能会使用不同的语言构建智能合约，例如：Solidity、Move、Rust、Vyper、Cairo、C++ 等。目前 EVM 兼容链使用的 Solidity 仍是最流行且易于入门的智能合约语言，应该确保完整阅读完其语言文档。且应了解运行在 Ethereum(以太坊) 上的代币合约的设计标准与具体的合约实现。在此基础上了解智能合约是如何做到可升级的，并实操掌握智能合约的编写与测试。
+Resources and Tools for Mastering Smart Contracts with Solidity
 
-- [Solidity 官方文档](https://docs.soliditylang.org/en/latest/)
-- 阅读[《精通以太坊》](https://github.com/inoutcode/ethereum_book)
-  - 当前应着重阅读剩余的其他章节
-- [了解基础的以太坊意见征求稿 ERC](https://eips.ethereum.org/erc)
-  - [ERC20](https://eips.ethereum.org/EIPS/eip-20) 同质化代币标准
-  - [ERC165](https://eips.ethereum.org/EIPS/eip-165) 接口标准
-  - [ERC173](https://eips.ethereum.org/EIPS/eip-173) 合约所有权标准
-  - [ERC191](https://eips.ethereum.org/EIPS/eip-191) 数据签名标准
-  - [ERC601](https://eips.ethereum.org/EIPS/eip-601) 确定性钱包分层结构标准
-  - [ERC721](https://eips.ethereum.org/EIPS/eip-721) 非同质化代币标准
-  - [ERC777](https://eips.ethereum.org/EIPS/eip-777) 可交互性代币标准
-  - [ERC1155](https://eips.ethereum.org/EIPS/eip-1155) 多代币标准
-  - [ERC1167](https://eips.ethereum.org/EIPS/eip-1167) 最小代理合约
-  - [ERC1967](https://eips.ethereum.org/EIPS/eip-1967) 代理数据存储插槽
-  - [ERC2612](https://eips.ethereum.org/EIPS/eip-2612) 代币批准签名
-  - [ERC4626](https://eips.ethereum.org/EIPS/eip-4626) 代币金库标准
-- 学习[ OpenZeppelin Token](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token) 部分的实现
-- 了解可升级合约/代理合约是什么
-  - [不同模式的代理合约介绍](https://ethereum-blockchain-developer.com/110-upgrade-smart-contracts/00-project/)
-  - [代理合约深入研究](https://proxies.yacademy.dev/pages/proxies-list/)
-  - [OpenZeppelin Proxy](https://docs.openzeppelin.com/contracts/4.x/api/proxy) 实现文档
-- 学习智能合约编写
-  - [WTF Solidity 智能合约教程](https://www.wtf.academy/)
+- [Solidity Official Documentation](https://docs.soliditylang.org/en/latest/)
+
+- Essential Reading "[Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)"
+  - Emphasis on reading the remaining chapters
+  
+- Understanding Ethereum's Standard Proposals ([ERC](https://eips.ethereum.org/erc))
+  - [ERC20](https://eips.ethereum.org/EIPS/eip-20): Standard for fungible tokens
+  - [ERC165](https://eips.ethereum.org/EIPS/eip-165): Interface standard
+  - [ERC173](https://eips.ethereum.org/EIPS/eip-173): Contract ownership standard
+  - [ERC191](https://eips.ethereum.org/EIPS/eip-191): Data signature standard
+  - [ERC601](https://eips.ethereum.org/EIPS/eip-601): Deterministic wallet hierarchical structure standard
+  - [ERC721](https://eips.ethereum.org/EIPS/eip-721): Non-fungible token standard
+  - [ERC777](https://eips.ethereum.org/EIPS/eip-777): Interoperable token standard
+  - [ERC1155](https://eips.ethereum.org/EIPS/eip-1155): Multi-token standard
+  - [ERC1167](https://eips.ethereum.org/EIPS/eip-1167): Minimal proxy contract
+  - [ERC1967](https://eips.ethereum.org/EIPS/eip-1967): Proxy data storage slots
+  - [ERC2612](https://eips.ethereum.org/EIPS/eip-2612): Token permit signature
+  - [ERC4626](https://eips.ethereum.org/EIPS/eip-4626): Token vault standard
+  
+- Studying OpenZeppelin's [token](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token) implementations
+
+- Understanding what upgradable contracts/proxy contracts ar
+  
+  * [Introduction to different proxy contract patterns](https://ethereum-blockchain-developer.com/110-upgrade-smart-contracts/00-project/)
+  * [Proxies Deep Dive](https://proxies.yacademy.dev/pages/proxies-list/)
+  * [OpenZeppelin Proxy](https://docs.openzeppelin.com/contracts/4.x/api/proxy) implementation documentation
+  
+- Learning to Write Smart Contracts
+  - [WTF Solidity Smart Contract Tutorials](https://www.wtf.academy/en/)
   - [Crypto Zombies](https://cryptozombies.io/en/course/)
   - [Smart Contract Engineer](https://www.smartcontract.engineer/)
   - [Solidity by Example](https://solidity-by-example.org/)
-- 阅读《精通以太坊智能合约开发》
-- 学习使用智能相关 Build 工具
-  - 流行的在线 IDE
+
+- Utilizing Smart Contract Build Tools
+  - Popular Online IDEs
     - [Remix](https://remix.ethereum.org/)
     - [ChainIDE](https://chainide.com/)
     - [Tenderly Sandbox](https://sandbox.tenderly.co/)
-  - 熟悉使用包管理器
+    
+  - Familiarization with Package Managers
     - [npm](https://www.npmjs.com/)
     - [yarn](https://yarnpkg.com/)
     - [pnpm](https://pnpm.io/)
-  - 流行的智能合约测试和调试框架
+    
+  - Popular Smart Contract Testing and Debugging Frameworks
     - [Foundry](https://book.getfoundry.sh/)
-      - 简便的[测试工具](https://book.getfoundry.sh/forge/tests)
-      - 强大的 [Cheatcodes](https://book.getfoundry.sh/cheatcodes/)
-      - [最佳实践](https://book.getfoundry.sh/tutorials/best-practices)
-    - [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started#overview)
-      - 善用其强大的[插件](https://hardhat.org/hardhat-runner/plugins)
-    - [Brownie](https://eth-brownie.readthedocs.io/en/stable/)
-    - [Tenderly](https://tenderly.co/)
-      - 简便的开发测试环境 [DevNet](https://docs.tenderly.co/devnets/intro-to-devnets)
-      - 快速[交易模拟](https://docs.tenderly.co/simulations-and-forks/intro-to-simulations)
-      - [可视化的交易 Debug 工具](https://docs.tenderly.co/debugger/how-to-use-tenderly-debugger)
-  - 与智能合约交互
-    - 了解 [JSON-RPC](https://ethereum.org/en/developers/docs/apis/json-rpc/)
-    - [ethers.js](https://docs.ethers.org/)
-    - [Web3.js](https://web3js.readthedocs.io/)
-    - [Web3.py](https://web3py.readthedocs.io/)
-    - [viem](https://viem.sh/)
+      * Convenient [testing](https://book.getfoundry.sh/forge/tests) tools
+      * [Cheatcodes](https://book.getfoundry.sh/cheatcodes/)
+      * [Best practices](https://book.getfoundry.sh/tutorials/best-practices)
+    
+    * [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started#overview)
+      * Leveraging its potent [plugins](https://hardhat.org/hardhat-runner/plugins)
+    
+    * [Brownie](https://eth-brownie.readthedocs.io/en/stable/)
+    * [Tenderly](https://tenderly.co/)
+      * [Convenient DevNet development testing environment](https://docs.tenderly.co/devnets/intro-to-devnets)
+      * [Quick transaction simulations](https://docs.tenderly.co/simulations-and-forks/intro-to-simulations)
+      * [Visual transaction debugging tools](https://docs.tenderly.co/debugger/how-to-use-tenderly-debugger)
+  
+  * Interacting with Smart Contracts
+    * Understanding [JSON-RPC](https://ethereum.org/en/developers/docs/apis/json-rpc/)
+    * [ethers.js](https://docs.ethers.org/)
+    * [Web3.js](https://web3js.readthedocs.io/)
+    * [Web3.py](https://web3py.readthedocs.io/)
+    * [viem](https://viem.sh/)
 
-#### **3. 常见的智能合约漏洞**
+### **3. Common Smart Contract Vulnerabilities**
 
-在学习完成智能合约基础知识后应掌握其常见的基础漏洞，并知晓漏洞原理。其中 Quillhash 整理的漏洞列表聚合了多个来源，其较为完备的展示了当前常见的智能合约漏洞类型。*(但对于初学者来说建议反复阅读所有列表以加深印象)*
+After mastering the fundamentals of smart contracts, it's essential to understand common vulnerabilities and the principles behind these vulnerabilities. Quillhash's vulnerability list, which aggregates multiple sources, offers a comprehensive view of the prevalent types of smart contract vulnerabilities. (For beginners, it's recommended to read through all the lists repeatedly to reinforce their understanding.)
 
 - [DASP Top 10](https://www.dasp.co/)
-- [SWC](https://swcregistry.io/) 智能合约弱点分类
-- [智能合约安全指南](https://scsfg.io/hackers/)
-- [Kaden: 智能合约攻击向量](https://github.com/kadenzipfel/smart-contract-vulnerabilities)
-- [Quillhash: Solidity 攻击向量](https://github.com/Quillhash/Solidity-Attack-Vectors)
+- [SWC Smart Contract Weakness Classification](https://swcregistry.io/)
+- [Smart Contract Security Guide](https://scsfg.io/hackers/)
+- Kaden: [Smart Contract Attack Vectors](https://github.com/kadenzipfel/smart-contract-vulnerabilities) 
+- Quillhash: [Solidity Attack Vectors](https://github.com/Quillhash/Solidity-Attack-Vectors)
 - [RareSkills Smart Contract Security](https://www.rareskills.io/post/smart-contract-security)
 
-#### **4. 最佳实践与安全标准**
+### **4. Best Practices and Security Standards**
 
-作为审计人员，必须了解智能合约的最佳实践以及安全标准。最佳实践为审计中寻找安全问题提供参考，安全标准为审计中提出的安全问题提供依据。
+As auditors, it's crucial to be familiar with the best practices and security standards of smart contracts. Best practices serve as a reference in identifying security issues during an audit, while security standards provide a basis for any security issues raised.
 
 - [Solidity Patterns](https://fravoll.github.io/solidity-patterns/)
 - [Solcurity](https://github.com/transmissions11/solcurity)
-- [ConsenSys 智能合约最佳实践](https://github.com/ConsenSys/smart-contract-best-practices/blob/master/README-zh.md)
-- [Solidity 安全陷阱和最佳实践 101](https://secureum.substack.com/p/security-pitfalls-and-best-practices-101)
-- [Solidity 安全陷阱和最佳实践 201](https://secureum.substack.com/p/security-pitfalls-and-best-practices-201)
+- [ConsenSys Smart Contract Best Practices](https://github.com/Consensys/smart-contract-best-practices/blob/master/README.md) 
+- [Solidity Security Pitfalls and Best Practices 101](https://secureum.substack.com/p/security-pitfalls-and-best-practices-101)
+- [Solidity Security Pitfalls and Best Practices 201](https://secureum.substack.com/p/security-pitfalls-and-best-practices-201)
 - [SCSVSv2](https://github.com/securing/SCSVS/tree/prerelease/SCSVSv2)
 - [EEA EthTrust Certification](https://entethalliance.org/specs/ethtrust-sl/)
-- [Foundry 测试最佳实践](https://github.com/ConsenSys/smart-contract-best-practices/blob/master/README-zh.md)
+- [Foundry Testing Best Practices](https://book.getfoundry.sh/tutorials/best-practices)
 
-#### **5. 简单 CTF 挑战**
+### **5. Basic CTF Challenges**
 
-在学习了区块链与智能合约基础知识以及常见的智能合约漏洞后，可以通过一些简单的 CTF 挑战巩固以及实践所学的知识。
+After acquiring foundational knowledge about blockchain, smart contracts, and common vulnerabilities, it's beneficial to consolidate and apply this knowledge through basic Capture The Flag (CTF) challenges.
 
 - [OpenZeppelin Ethernaut](https://ethernaut.openzeppelin.com/)
 - [Capture the Ether](https://capturetheether.com/)
 
-## **倚门而歌**
+## **Diving Deeper Into Smart Contracts**
 
-掌握了区块链与智能合约的基础知识后，我们便推开了 Solidity 智能合约安全审计的大门，门后的智能合约世界仍极为广阔。本阶段将从去中心化金融(DeFi) 开始深入地探索门后更为广阔的智能合约应用。
+Having grasped the basics of blockchain and smart contracts, we've essentially opened the door to Solidity smart contract security auditing. Beyond this door, the world of smart contracts is still vast. In this stage, we'll delve deeper into the expansive realm of smart contract applications, starting with decentralized finance (DeFi).
 
-#### **1. 去中心化金融(DeFi)基础知识**
+### **1. Fundamentals of Decentralized Finance (DeFi)**
 
-区块链和智能合约使 DeFi 的构建成为可能，DeFi 的出现也使得 Ethereum 等公链快速发展。在做进一步探索之前，理应了解 DeFi 是什么？
+Blockchain and smart contracts have made the construction of DeFi possible, and the emergence of DeFi has spurred the rapid development of blockchains like Ethereum. Before delving further, one should understand: What is DeFi?
 
-- 阅读《How To DeFi: Beginner》
-- 阅读《How To DeFi: Advanced》
-- [DeFi 各类型介绍](https://teachyourselfcrypto.com/#ftoc-module-4-decentralized-finance-defi)
-  - 了解各个类型的 DeFi 是什么
-  - 了解一些基础的经济学知识与常用术语
-- 基础的[金融玩法](https://www.khanacademy.org/economics-finance-domain/core-finance/derivative-securities)介绍
-- [经济模型 101](https://tokenomicsdao.xyz/tokenomics101/)
+- Read "[How To DeFi: Beginner](https://landing.coingecko.com/how-to-defi/)"
+- Read "[How To DeFi: Advanced](https://landing.coingecko.com/how-to-defi/)"
+- [Introduction to different types of DeFi](https://teachyourselfcrypto.com/#ftoc-module-4-decentralized-finance-defi)
+  - Understand what each type of DeFi is
+  - Grasp basic economic knowledge and common terminologies
+- [Introduction to fundamental financial strategies](https://www.khanacademy.org/economics-finance-domain/core-finance/derivative-securities)
+- [Economics Model 101](https://tokenomicsdao.xyz/tokenomics101/)
 
-#### **2. 去中心化金融(DeFi)头部协议**
+### **2. Leading Protocols in Decentralized Finance (DeFi)**
 
-在初步了解了 DeFi 是什么后，应进一步了解它们实现了什么/是如何实现的？通过阅读当前头部去中心化金融(DeFi)协议的技术文档以初步了解头部 DeFi 协议是如何实现的。
+After an initial understanding of what DeFi is, it's important to delve deeper into what these platforms have achieved and how they achieved it. This can be accomplished by reviewing the technical documentation of the current leading DeFi protocols to gain preliminary insights into their implementations.
 
-- [MakerDAO](https://docs.makerdao.com/) (CDP)
+- [MakerDAO](https://docs.makerdao.com/) (Collateralized Debt Position) 
 - [AAVE](https://docs.aave.com/hub/) (Lending)
   - [V2](https://docs.aave.com/developers/v/2.0/)
   - [V3](https://docs.aave.com/developers/getting-started/readme)
 - Compound (Lending)
   - [V2](https://docs.compound.finance/v2/)
   - [V3](https://docs.compound.finance/)
-- Uniswap (DEX)
+- Uniswap (Decentralized Exchange)
   - [V2](https://docs.uniswap.org/contracts/v2/overview)
   - [V3](https://docs.uniswap.org/contracts/v3/overview)
-- Curve (DEX)
-  - [技术文档](https://docs.curve.fi/)
-  - [算法简述](https://hackmd.io/@alltold/curve-magic)
-  - [Curve 牛顿迭代详解](https://0xreviews.xyz/posts/2022-02-28-curve-newton-method)
+- Curve (Decentralized Exchange)
+  - [Technical Documentation](https://docs.curve.fi/)
+  - [Algorithm Overview](https://hackmd.io/@alltold/curve-magic)
+  - Detailed Explanation of Curve's [Newton Iteration](https://0xreviews.xyz/posts/2022-02-28-curve-newton-method)
 - Chainlink (Oracle)
-  - [价格预言机](https://docs.chain.link/data-feeds)
-  - [VRF](https://docs.chain.link/vrf/v2/introduction)
-- Convex Finance (Yield)
-  - [协议介绍](https://docs.convexfinance.com/convexfinance/)
-  - [技术文档](https://docs.convexfinance.com/convexfinanceintegration/)
+  - [Price Oracles](https://docs.chain.link/data-feeds)
+  - [VRF](https://docs.chain.link/vrf/v2/introduction) (Verifiable Random Function)
+- Convex Finance (Yield Optimization)
+  - Protocol [Overview](https://docs.convexfinance.com/convexfinance/)
+  - [Technical Documentation](https://docs.convexfinance.com/convexfinanceintegration/)
 - [Yearn Finance](https://docs.yearn.fi/getting-started/intro) (Yield Aggregator)
 - [GMX](https://gmxio.gitbook.io/gmx/) (Derivatives)
 - [Nexus Mutual](https://docs.nexusmutual.io/overview/) (Insurance)
 - [OpenSea](https://github.com/ProjectOpenSea/seaport#seaport) (NFT Marketplace)
-- [Set Protocol](https://docs.tokensets.com/) (Indexes)
+- [Set Protocol](https://docs.tokensets.com/) (Index Funds)
 - [Lido](https://docs.lido.fi/) (Liquid Staking)
-- ...
+- ... and more
 
-#### **3. 深入阅读头部协议源代码**
+### **3. Delve into the Source Code of Leading Protocols**
 
-当前多数 DeFi 项目都相互依赖、组合，一些头部的 DeFi 协议成了构件 DeFi 组合基石，所以掌握这些 DeFi 的实现极为重要。在先前通过协议技术文档对 DeFi 的实现进行初步了解后，再通过阅读全量源代码的方式掌握其具体的逻辑、经济模型。
+Many DeFi projects currently interrelate and combine, with some leading DeFi protocols forming the cornerstone of complex DeFi combinations. Hence, mastering the implementation of these DeFi initiatives is critical. After an initial understanding of DeFi's workings through protocol documentation, further comprehension can be achieved by studying the complete source code to grasp specific logic and economic models.
 
-#### **4. 了解去中心化金融(DeFi) 风险**
+### **4. Understand the Risks in Decentralized Finance (DeFi)**
 
-DeFi 并不局限于智能合约，前端、后端也是其重要的组成部分，绝大部分用户通过前端与 DeFi 进行交互。因此在了解了 DeFi 的运作与实现后，通过前端安全实践、后端安全配置要求与 DeFi 历史漏洞对其面临的风险进行学习与实践。
+DeFi isn't solely about smart contracts; the frontend and backend are vital components. Most users interact with DeFi through the frontend. Therefore, after understanding DeFi's operations and implementations, it's essential to learn and practice its risks through frontend security measures, backend security configuration requirements, and historical vulnerabilities in the DeFi sector.
 
-- 了解 Web 前端安全
-  - 阅读 SlowMist Web 前端最佳安全实践指南
-  - 更多了解《Web 前端黑客技术揭秘》
-- 了解 DeFi 被黑原因
-  - [SlowMist DeFi 被黑简析](https://docs.google.com/document/d/1b-uHJ7XDe1-xyaQQ9MYB3FGmYD7K_ULH8bUc20EZfu8/edit)
-  - [SlowMist Meidum](https://slowmist.medium.com/)
+- Understanding Web Frontend Security
+  - Read the "SlowMist Web Frontend Security Best Practices Guide"
+  - Dive deeper into "Web Frontend Hacker Techniques Revealed"
+- Understanding DeFi Hacks
+  - [SlowMist DeFi Hack Analysis](https://docs.google.com/document/d/1b-uHJ7XDe1-xyaQQ9MYB3FGmYD7K_ULH8bUc20EZfu8/edit)
+  - [SlowMist Medium Articles](https://slowmist.medium.com/)
   - [DeFiHackLabs](https://web3sec.notion.site/web3sec/Web3-Security-ddaa8bf9a985494dbaf70d698345b899)
   - [Rekt](https://rekt.news/zh/)
   - [Immunefi](https://medium.com/@immunefi)
@@ -264,9 +280,9 @@ DeFi 并不局限于智能合约，前端、后端也是其重要的组成部分
   - [Openzeppelin](https://blog.openzeppelin.com/security-audits/)
   - [OfferCIA](https://officercia.mirror.xyz/)
 
-#### **5. 阅读审计报告**
+### **5. Reviewing Audit Reports**
 
-在进行审计时，个人的角度总是会有所遗漏，无法覆盖所有情况。因此通过阅读他人的审计报告以学习不同的漏洞发现方式和审计思考方式很重要。
+During an audit, an individual's perspective may miss certain aspects and cannot cover all scenarios. Therefore, reading other people's audit reports is crucial to learn different methods of vulnerability discovery and various auditing thought processes.
 
 - [SlowMist Audit Reports](https://github.com/slowmist/Knowledge-Base)
 - [Solodit Aggregation](https://solodit.xyz/)
@@ -284,9 +300,9 @@ DeFi 并不局限于智能合约，前端、后端也是其重要的组成部分
 - [OpenZeppelin Audit Reports](https://blog.openzeppelin.com/tag/security-audits)
 - [Complete List of Security Audit Reports](https://github.com/0xNazgul/Blockchain-Security-Audit-List)
 
-#### **6. CTF 挑战**
+### **6. CTF Challenges**
 
-进行较有难度的 CTF 挑战以巩固知识。
+Engage in more advanced CTF challenges to test new skills and grow
 
 - [EtherHack](https://etherhack.positive.com/)
 - [SI Blockchain CTF](https://blockchain-ctf.securityinnovation.com/)
@@ -297,35 +313,35 @@ DeFi 并不局限于智能合约，前端、后端也是其重要的组成部分
 - [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/)
 - [unhackedctf](https://github.com/unhackedctf)
 
-## **融会贯通**
+## **Integration and Mastery**
 
-在对头部 DeFi 的探索过程中将建立起对 DeFi 的深刻理解，接下来通过从底层 EVM 到 DeFi 上层经济模型的学习来继续加深对智能合约的理解。并且在此过程中，可以通过独立审计复杂智能合约以沉淀自己的审计方法论。
+Through the exploration of leading DeFi platforms, a profound understanding of DeFi will be established. Moving forward, by learning from the foundational layer of EVM to the upper economic models of DeFi, we can continue to deepen our grasp on smart contracts. During this process, independently auditing complex smart contracts can help solidify one's own audit methodology.
 
-#### **1. 深入了解 EVM**
+### **1. Deep Dive into EVM**
 
-EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能合约的部署、调用、执行、数据存储有更为深入的理解。同时可以为 Gas 优化、漏洞发现打好基础。
+The EVM (Ethereum Virtual Machine) is responsible for executing smart contract instructions. A comprehensive understanding of the EVM aids in a more in-depth grasp of the deployment, invocation, execution, and data storage of smart contracts. This foundational knowledge is also pivotal for Gas optimization and discovering vulnerabilities.
 
-- [关于 EVM](https://www.evm.codes/about)
-- [Noxx EVM 深入研究](https://noxx.substack.com/p/evm-deep-dives-the-path-to-shadowy)
-- [Solidity 插槽数据解析](https://ethdebug.github.io/solidity-data-representation/)
-- [以太坊黄皮书](https://ethereum.github.io/yellowpaper/paper.pdf)
-  - [简单版](https://github.com/chronaeon/beigepaper)
-- [EVM 实现示例](https://github.com/noxx3xxon/evm-by-example)
+- [About EVM](https://www.evm.codes/about)
+- Noxx's [In-depth Research on EVM](https://noxx.substack.com/p/evm-deep-dives-the-path-to-shadowy) 
+- [Parsing Solidity Slot Data](https://ethdebug.github.io/solidity-data-representation/) 
+- [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
+  - [Simplified Version](https://github.com/chronaeon/beigepaper) 
+- [EVM Implementation Examples](https://github.com/noxx3xxon/evm-by-example) 
 
-#### **2. Gas 优化设计**
+### **2. Gas Optimization Design**
 
-链上交易的执行都需要付出 Gas 成本。对于复杂合约来说，优化 Gas 可以降低用户交互成本，吸引用户使用。这就要求审计人员需要对 Gas 优化设计有一定的了解。
+All on-chain transactions incur Gas costs. For complex contracts, optimizing Gas can reduce user interaction costs, thereby attracting more users. This demands that auditors have a certain understanding of Gas optimization design.
 
-- [Gas 优化参考 1](https://www.alchemy.com/overviews/solidity-gas-optimization)
-- [Gas 优化参考 2](https://www.alchemy.com/overviews/solidity-gas-optimization)
-- [Gas 优化参考 3](https://coinsbench.com/structs-in-solidity-best-practices-for-gas-efficiency-by-0xlazard-4e984a7485cf)
+- [Gas Optimization References 1](https://www.alchemy.com/overviews/solidity-gas-optimization)
+- [Gas Optimization References 2](https://www.alchemy.com/overviews/solidity-gas-optimization)
+- [Gas Optimization References 3](https://coinsbench.com/structs-in-solidity-best-practices-for-gas-efficiency-by-0xlazard-4e984a7485cf)
 
-#### **3. DeFi 经济模型**
+### **3. DeFi Economic Models**
 
-经济模型是 DeFi 产品的核心部分，所以了解经济模型的风险是很有必要的。在学习过程中应沉淀出自己的见解与方法论。
+The economic model is a core component of DeFi products, so it's essential to understand the risks associated with these models. Throughout the learning process, one should develop and consolidate their perspectives and methodologies.
 
-- [治理风险](https://arxiv.org/abs/2308.04267)
-- [DeFi 经济模型风险汇总](https://github.com/engn33r/DeFi-Risk-Modelling-Awesome)
+- [Governance Risks](https://arxiv.org/abs/2308.04267)
+- [Summary of Risks in DeFi Economic Models](https://github.com/engn33r/DeFi-Risk-Modelling-Awesome) 
   - [Euler Oracle Manipulation Tool](https://oracle.euler.finance/)
   - [Chaos Lab Uniswap v3 Oracle Manipulation Risk](https://community.chaoslabs.xyz/uniswap/twap)
   - [Agent Buttercup simulation engine](https://github.com/Cozy-Finance/agent-buttercup)
@@ -333,15 +349,15 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
   - [DELV agent-based simulation tool](https://github.com/delvtech/elf-simulations)
   - Uniswap v3 simulator[ option 1](https://github.com/Bella-DeFinTech/uniswap-v3-simulator),[ option 2](https://github.com/aloelabs/uniswap-simulator),[ option 3](https://github.com/DefiLab-xyz/uniswap-v3-simulator)
 
-#### **4. 拆解分析复杂 DeFi 协议**
+### **4. Deconstructing and Analyzing Complex DeFi Protocols**
 
-在将这些技能融会贯通后，审计人员应具备拆解分析复杂的高原创性 DeFi 协议的能力。
+After mastering these skills, auditors should be capable of dissecting and analyzing complex, highly innovative DeFi protocols.
 
 - To be released...
 
-#### **5. 与同道者同行**
+### **5. Peer Learning**
 
-学习其他优秀同道者所研究的内容可以给我们更多的启发，拓宽我们的视野。
+Learning from other outstanding peers who are researching various topics can provide us with more insights and broaden our horizons.
 
 - [Bytes032](https://blog.bytes032.xyz/)
 - [Noxx](https://noxx.substack.com/)
@@ -355,33 +371,33 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 - [Alin Tomescu](https://alinush.github.io/)
 - [Christoph Michel](https://cmichel.io/)
 - [Kyrian Alex](https://kyrianalex.substack.com/)
-- ...
+- And more
 
-#### **6. 快速应急分析**
+### **6. Rapid Incident Analysis**
 
-在独立审计过足够多的复杂项目，并经历过各种业务场景，沉淀了大量知识后，能够使我们快速应对突发安全事件并进行快速分析与输出。下面是一些常用的分析工具：
+After independently auditing numerous complex projects, accumulating extensive knowledge, and experiencing various business scenarios, auditors should be able to respond quickly to unforeseen security incidents and conduct rapid analysis and reporting. Here are some commonly used analysis tools:
 
-- 合约反编译工具
+- Contract Decompilation Tools
   - [Dedaub](https://library.dedaub.com/decompile)
-  - [Panoramix](https://github.com/palkeo/panoramix)
-  - [abi-decompiler](https://github.com/Decurity/abi-decompiler)
-  - [heimdall-rs](https://github.com/Jon-Becker/heimdall-rs)
-  - [ethervm](https://ethervm.io/decompile)
-  - [Pyevmasm](https://github.com/crytic/pyevmasm)
-- 交易分析工具
+    - [Panoramix](https://github.com/palkeo/panoramix)
+    - [abi-decompiler](https://github.com/Decurity/abi-decompiler)
+    - [heimdall-rs](https://github.com/Jon-Becker/heimdall-rs)
+    - [ethervm](https://ethervm.io/decompile)
+    - [Pyevmasm](https://github.com/crytic/pyevmasm)
+- Transaction Analysis Tools
   - [Phalcon](https://explorer.phalcon.xyz/)
-  - [ethtx.info](https://ethtx.info/)
-  - [Tx eth samczsun](https://tx.eth.samczsun.com/)
-  - [Tenderly](https://tenderly.co/)
-  - [Eigenphi](https://eigenphi.io/)
-  - [SocketScan](https://socketscan.io/)
+    - [ethtx.info](https://ethtx.info/)
+    - [Tx eth samczsun](https://tx.eth.samczsun.com/)
+    - [Tenderly](https://tenderly.co/)
+    - [Eigenphi](https://eigenphi.io/)
+    - [SocketScan](https://socketscan.io/)
 - Others
   - [Web3 Security Tools](https://github.com/Quillhash/Web3-Security-Tools)
-  - [On Chain Investigations Tools List](https://github.com/OffcierCia/On-Chain-Investigations-Tools-List)
+    - [On Chain Investigations Tools List](https://github.com/OffcierCia/On-Chain-Investigations-Tools-List)
 
-#### **7. Bug Bounty 实战**
+### **7. Bug Bounty Practice**
 
-进行实战，以最真实的场景检测能力。
+Engaging in real-world scenarios is the best way to test your skills.
 
 - [Immunefi](https://immunefi.com)
 - [BugRap](https://bugrap.io)
@@ -389,59 +405,55 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 - [HackerOne](https://hackerone.com)
 - [HackenProof](https://hackenproof.com)
 - [HatsFinance](https://hats.finance/)
-- ...
+- And more 
 
-## **破门而出**
+## **Continuous Growth**
 
-在由 Solidity 智能合约寻门而入后，不应再满足于在单一领域兜兜转转，而是应该沉淀出自己方法论，大胆地凿出一道新门，破门而出，在深耕当前领域的同时拓展其他领域。
+After entering the world of Solidity smart contracts, one should not be content with circling within a single domain. Instead, you should crystallize your own methodology, boldly carve out a new path, break through, and expand into other areas while deepening your expertise in the current field.
 
 ![skill](./res/skill.png)
 
-#### **1. 突破局限**
+### **1. Overcoming Limitations**
 
-在从 Solidity 智能合约入门后不应只局限于此，也应拓展其他类型、语言，并对其涉及的审计方法有所沉淀。
+- Don't confine yourself to Solidity; explore other smart contract languages like Rust, Vyper, Cairo, and Move
+- Don't limit yourself to smart contracts; understand popular public blockchains like BTC, Cosmos, Solana, Starknet, EVM L2, and more
+- Beyond blockchain, gain insights into areas like Web2.0 and mobile development
+- Dive deeper into the field of cryptography
+- And more
 
-- 不只局限于 Solidity，Rust/Vyper/Cairo/Move 等智能合约语言也应了解
-- 不只局限于智能合约，BTC/Cosmos/Solana/Starknet/EVM L2 等其他流行公链也应了解
-- 不只局限于区块链，Web2.0/移动端等也应了解
-- 深入了解密码学领域
-- ...
+### **2. Methodology**
 
-#### **2. 方法论**
+After mastering the skills of smart contract security auditing, you can develop your own methodology. This helps you quickly identify the core issues and determine problem-solving approaches. A good methodology can greatly increase your efficiency.
 
-将智能合约安全审计技能融会贯通后，可以沉淀出属于自己的方法论，帮助我们快速的触及问题的核心并确定解决思路，好的方法论能让我们事半功倍。
+- Methodology for auditing work
+- Methodology for smart contract security practices
+- Approaches to problem-solving
+- Building a thinking framework
 
-- 对审计工作的方法论
-- 对智能合约安全实践的方法论
-- 做事的方法论
-- 构建思维体系的方法论
-- ...
+### **3. Creativity**
 
-#### **3. 创造力**
+Creativity is the weapon that allows us to conquer challenges and the essential attribute for progress. After acquiring skills systematically, nurture your creativity to advance further.
 
-创造力是我们能够克敌制胜的法宝，是我们保持前进所需具备的东西。在按部就班地掌握技能后，再武装我们的思维，这能够使我们走得更远。
-
-- 保持好奇心
-  - 对新事物的敏感性
-  - 不局限于自己的圈子/专业/职业
-  - ...
-- 追逐知识
-  - 对知识保持敬畏
-  - 探索新知识
-- 黑客思维
-  - 黑客也可以是一种精神也可以是一种思维，守正出奇
-- 善于研究
-  - 在进行研究时应有实际的结果/文档输出
-- 工程化
-  - 对于好点子，好的的研究成果应该善于工程化，并在实战中进行检验
+- Cultivate curiosity
+  - Learn new things
+  - Don't limit yourself to your circle, profession, or field
+- Pursue knowledge relentlessly
+  - Approach knowledge with reverence
+  - Explore new realms of knowledge
+- Embrace the hacker mindset
+  - Staying true to principles while thinking outside the box
+- Be adept at research
+  - Aim for practical results and publish research
+- Implement engineering principles
+  - Turn ideas and research into practical solutions and test them in real-world
     - SlowMist MistEye Monitoring System
     - SlowMist Contract Visibility Analysis Tool
     - SlowMist Static Vulnerability Scanner
-    - ...
+    - And more
 
-## **致谢**
+## **Acknowledgments**
 
-感谢朋友们对本文提出的宝贵建议。
+Special thanks to friends who provided valuable feedback:
 
 - [Cos](https://twitter.com/evilcos)
 - [23pds](https://twitter.com/IM_23pds)
