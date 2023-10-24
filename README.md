@@ -462,3 +462,5 @@ Special thanks to friends who provided valuable feedback:
 - Flush
 - Blue
 - Lizi
+
+Thanks to Jian for the English translation and to Hik3 for designing the cover image.
