@@ -102,7 +102,7 @@ English version: **[SlowMist Learning Roadmap for Becoming a Smart Contract Audi
 - [加密货币工作原理](https://www.bilibili.com/video/BV11x411i72w/)
 - 阅读[《精通比特币》](https://github.com/inoutcode/bitcoin_book_2nd)
 - 阅读[《精通以太坊》](https://github.com/inoutcode/ethereum_book)
-  - 当前应着重阅读第 1、4、5、6、7、13 和 15 章节
+  - 当前应着重阅读第 1、4、5、6、7 和 13 章节
 
 #### **2. 智能合约基础知识**
 
@@ -315,6 +315,7 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 - [Solidity 插槽数据解析](https://ethdebug.github.io/solidity-data-representation/)
 - [以太坊黄皮书](https://ethereum.github.io/yellowpaper/paper.pdf)
   - [简单版](https://github.com/chronaeon/beigepaper)
+- [Quillhash EVM Mastery](https://github.com/Quillhash/EVM-Mastery)
 - [EVM 实现示例](https://github.com/noxx3xxon/evm-by-example)
 
 #### **2. Gas 优化设计**

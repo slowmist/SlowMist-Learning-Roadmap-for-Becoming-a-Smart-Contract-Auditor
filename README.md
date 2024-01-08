@@ -100,7 +100,7 @@ Before understanding what smart contracts are, one should first comprehend the b
 - [How cryptocurrencies work](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 - Reading "[Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)"
 - Reading "[Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)"
-  - Emphasis should be on Chapters 1, 4, 5, 6, 7, 13, and 15
+  - Emphasis should be on Chapters 1, 4, 5, 6, 7, and 13
 
 ### **2. Fundamentals of Smart Contracts**
 
@@ -326,6 +326,7 @@ The EVM (Ethereum Virtual Machine) is responsible for executing smart contract i
 - [Parsing Solidity Slot Data](https://ethdebug.github.io/solidity-data-representation/) 
 - [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
   - [Simplified Version](https://github.com/chronaeon/beigepaper) 
+- [Quillhash EVM Mastery](https://github.com/Quillhash/EVM-Mastery)
 - [EVM Implementation Examples](https://github.com/noxx3xxon/evm-by-example) 
 
 ### **2. Gas Optimization Design**
