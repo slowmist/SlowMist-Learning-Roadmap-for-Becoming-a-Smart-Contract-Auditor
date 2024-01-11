@@ -166,7 +166,9 @@ Resources and Tools for Mastering Smart Contracts with Solidity
       * [Convenient DevNet development testing environment](https://docs.tenderly.co/devnets/intro-to-devnets)
       * [Quick transaction simulations](https://docs.tenderly.co/simulations-and-forks/intro-to-simulations)
       * [Visual transaction debugging tools](https://docs.tenderly.co/debugger/how-to-use-tenderly-debugger)
-  
+    * [Sentio](https://app.sentio.xyz/explorer)
+      * [Online debugging with code insight](https://docs.sentio.xyz/sentio-debugger/code-insight) 
+      * [Simulation with contract overrides](https://docs.sentio.xyz/sentio-debugger/simulation#override-contract)
   * Interacting with Smart Contracts
     * Understanding [JSON-RPC](https://ethereum.org/en/developers/docs/apis/json-rpc/)
     * [ethers.js](https://docs.ethers.org/)
@@ -380,21 +382,22 @@ After independently auditing numerous complex projects, accumulating extensive k
 
 - Contract Decompilation Tools
   - [Dedaub](https://library.dedaub.com/decompile)
-    - [Panoramix](https://github.com/palkeo/panoramix)
-    - [abi-decompiler](https://github.com/Decurity/abi-decompiler)
-    - [heimdall-rs](https://github.com/Jon-Becker/heimdall-rs)
-    - [ethervm](https://ethervm.io/decompile)
-    - [Pyevmasm](https://github.com/crytic/pyevmasm)
+  - [Panoramix](https://github.com/palkeo/panoramix)
+  - [abi-decompiler](https://github.com/Decurity/abi-decompiler)
+  - [heimdall-rs](https://github.com/Jon-Becker/heimdall-rs)
+  - [ethervm](https://ethervm.io/decompile)
+  - [Pyevmasm](https://github.com/crytic/pyevmasm)
 - Transaction Analysis Tools
   - [Phalcon](https://explorer.phalcon.xyz/)
-    - [ethtx.info](https://ethtx.info/)
-    - [Tx eth samczsun](https://tx.eth.samczsun.com/)
-    - [Tenderly](https://tenderly.co/)
-    - [Eigenphi](https://eigenphi.io/)
-    - [SocketScan](https://socketscan.io/)
+  - [ethtx.info](https://ethtx.info/)
+  - [Tx eth samczsun](https://tx.eth.samczsun.com/)
+  - [Tenderly](https://tenderly.co/)
+  - [Sentio](https://app.sentio.xyz/explorer)
+  - [Eigenphi](https://eigenphi.io/)
+  - [SocketScan](https://socketscan.io/)
 - Others
   - [Web3 Security Tools](https://github.com/Quillhash/Web3-Security-Tools)
-    - [On Chain Investigations Tools List](https://github.com/OffcierCia/On-Chain-Investigations-Tools-List)
+  - [On Chain Investigations Tools List](https://github.com/OffcierCia/On-Chain-Investigations-Tools-List)
 
 ### **7. Bug Bounty Practice**
 
