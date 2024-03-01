@@ -311,6 +311,7 @@ DeFi 并不局限于智能合约，前端、后端也是其重要的组成部分
 EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能合约的部署、调用、执行、数据存储有更为深入的理解。同时可以为 Gas 优化、漏洞发现打好基础。
 
 - [关于 EVM](https://www.evm.codes/about)
+- [The EVM From Scratch Book](https://evm-from-scratch.xyz/intro)
 - [Noxx EVM 深入研究](https://noxx.substack.com/p/evm-deep-dives-the-path-to-shadowy)
 - [Solidity 插槽数据解析](https://ethdebug.github.io/solidity-data-representation/)
 - [以太坊黄皮书](https://ethereum.github.io/yellowpaper/paper.pdf)
