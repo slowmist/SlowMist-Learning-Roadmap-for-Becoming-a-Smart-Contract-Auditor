@@ -156,6 +156,9 @@ English version: **[SlowMist Learning Roadmap for Becoming a Smart Contract Audi
       - 简便的开发测试环境 [DevNet](https://docs.tenderly.co/devnets/intro-to-devnets)
       - 快速[交易模拟](https://docs.tenderly.co/simulations-and-forks/intro-to-simulations)
       - [可视化的交易 Debug 工具](https://docs.tenderly.co/debugger/how-to-use-tenderly-debugger)
+    - [Sentio](https://app.sentio.xyz/explorer)
+      - [用代码索引做在线Debug](https://docs.sentio.xyz/sentio-debugger/code-insight)
+      - [交易模拟中覆盖合约](https://docs.sentio.xyz/sentio-debugger/simulation#override-contract)
   - 与智能合约交互
     - 了解 [JSON-RPC](https://ethereum.org/en/developers/docs/apis/json-rpc/)
     - [ethers.js](https://docs.ethers.org/)
@@ -380,6 +383,7 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
   - [ethtx.info](https://ethtx.info/)
   - [Tx eth samczsun](https://tx.eth.samczsun.com/)
   - [Tenderly](https://tenderly.co/)
+  - [Sentio](https://app.sentio.xyz/explorer)
   - [Eigenphi](https://eigenphi.io/)
   - [SocketScan](https://socketscan.io/)
 - Others
