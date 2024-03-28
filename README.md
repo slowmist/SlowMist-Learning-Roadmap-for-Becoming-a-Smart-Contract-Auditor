@@ -129,7 +129,7 @@ Resources and Tools for Mastering Smart Contracts with Solidity
   
 - Studying OpenZeppelin's [token](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token) implementations
 
-- Understanding what upgradable contracts/proxy contracts ar
+- Understanding what upgradable contracts/proxy contracts are
   
   * [Introduction to different proxy contract patterns](https://ethereum-blockchain-developer.com/110-upgrade-smart-contracts/00-project/)
   * [Proxies Deep Dive](https://proxies.yacademy.dev/pages/proxies-list/)
