@@ -327,7 +327,7 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 链上交易的执行都需要付出 Gas 成本。对于复杂合约来说，优化 Gas 可以降低用户交互成本，吸引用户使用。这就要求审计人员需要对 Gas 优化设计有一定的了解。
 
 - [Gas 优化参考 1](https://www.alchemy.com/overviews/solidity-gas-optimization)
-- [Gas 优化参考 2](https://www.alchemy.com/overviews/solidity-gas-optimization)
+- [Gas 优化参考 2](https://www.rareskills.io/post/gas-optimization)
 - [Gas 优化参考 3](https://coinsbench.com/structs-in-solidity-best-practices-for-gas-efficiency-by-0xlazard-4e984a7485cf)
 
 #### **3. DeFi 经济模型**

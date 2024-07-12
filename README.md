@@ -337,7 +337,7 @@ The EVM (Ethereum Virtual Machine) is responsible for executing smart contract i
 All on-chain transactions incur Gas costs. For complex contracts, optimizing Gas can reduce user interaction costs, thereby attracting more users. This demands that auditors have a certain understanding of Gas optimization design.
 
 - [Gas Optimization References 1](https://www.alchemy.com/overviews/solidity-gas-optimization)
-- [Gas Optimization References 2](https://www.alchemy.com/overviews/solidity-gas-optimization)
+- [Gas Optimization References 2](https://www.rareskills.io/post/gas-optimization)
 - [Gas Optimization References 3](https://coinsbench.com/structs-in-solidity-best-practices-for-gas-efficiency-by-0xlazard-4e984a7485cf)
 
 ### **3. DeFi Economic Models**
