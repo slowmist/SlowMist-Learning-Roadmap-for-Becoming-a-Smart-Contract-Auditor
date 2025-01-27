@@ -127,7 +127,7 @@ English version: **[SlowMist Learning Roadmap for Becoming a Smart Contract Audi
 - 学习[ OpenZeppelin Token](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token) 部分的实现
 - 了解可升级合约/代理合约是什么
   - [不同模式的代理合约介绍](https://ethereum-blockchain-developer.com/110-upgrade-smart-contracts/00-project/)
-  - [代理合约深入研究](https://proxies.yacademy.dev/pages/proxies-list/)
+  - [代理合约深入研究](https://proxies.yacademy.dev/pages/Proxies-List/)
   - [OpenZeppelin Proxy](https://docs.openzeppelin.com/contracts/4.x/api/proxy) 实现文档
 - 学习智能合约编写
   - [WTF Solidity 智能合约教程](https://www.wtf.academy/)
@@ -157,8 +157,8 @@ English version: **[SlowMist Learning Roadmap for Becoming a Smart Contract Audi
       - 快速[交易模拟](https://docs.tenderly.co/simulations-and-forks/intro-to-simulations)
       - [可视化的交易 Debug 工具](https://docs.tenderly.co/debugger/how-to-use-tenderly-debugger)
     - [Sentio](https://app.sentio.xyz/explorer)
-      - [用代码索引做在线Debug](https://docs.sentio.xyz/sentio-debugger/code-insight)
-      - [交易模拟中覆盖合约](https://docs.sentio.xyz/sentio-debugger/simulation#override-contract)
+      - [用代码索引做在线Debug](https://docs.sentio.xyz/docs/code-insight)
+      - [交易模拟中覆盖合约](https://docs.sentio.xyz/docs/simulation#override-contract)
   - 与智能合约交互
     - 了解 [JSON-RPC](https://ethereum.org/en/developers/docs/apis/json-rpc/)
     - [ethers.js](https://docs.ethers.org/)
@@ -238,7 +238,7 @@ English version: **[SlowMist Learning Roadmap for Becoming a Smart Contract Audi
   - [协议介绍](https://docs.convexfinance.com/convexfinance/)
   - [技术文档](https://docs.convexfinance.com/convexfinanceintegration/)
 - [Yearn Finance](https://docs.yearn.fi/getting-started/intro) (Yield Aggregator)
-- [GMX](https://gmxio.gitbook.io/gmx/) (Derivatives)
+- [GMX](https://docs.gmx.io/docs/intro/) (Derivatives)
 - [Nexus Mutual](https://docs.nexusmutual.io/overview/) (Insurance)
 - [OpenSea](https://github.com/ProjectOpenSea/seaport#seaport) (NFT Marketplace)
 - [Set Protocol](https://docs.tokensets.com/) (Indexes)
@@ -270,14 +270,14 @@ DeFi 并不局限于智能合约，前端、后端也是其重要的组成部分
   - [TrailOfBits](https://blog.trailofbits.com/)
   - [Secureum](https://secureum.substack.com/)
   - [Openzeppelin](https://blog.openzeppelin.com/security-audits/)
-  - [OfferCIA](https://officercia.mirror.xyz/)
+  - [OfficerCIA](https://officercia.mirror.xyz/)
 
 #### **5. 阅读审计报告**
 
 在进行审计时，个人的角度总是会有所遗漏，无法覆盖所有情况。因此通过阅读他人的审计报告以学习不同的漏洞发现方式和审计思考方式很重要。
 
 - [SlowMist Audit Reports](https://github.com/slowmist/Knowledge-Base)
-- [Solodit Aggregation](https://solodit.xyz/)
+- [Solodit Aggregation](https://solodit.cyfrin.io/)
 - [Code4rena Audit Reports](https://code4rena.com/reports)
 - [Consensys Audit Reports](https://consensys.net/diligence/audits/)
 - [QuillAudits Audit Reports](https://github.com/Quillhash/QuillAudit_Reports)
@@ -314,7 +314,7 @@ DeFi 并不局限于智能合约，前端、后端也是其重要的组成部分
 EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能合约的部署、调用、执行、数据存储有更为深入的理解。同时可以为 Gas 优化、漏洞发现打好基础。
 
 - [关于 EVM](https://www.evm.codes/about)
-- [The EVM From Scratch Book](https://evm-from-scratch.xyz/intro)
+- [The EVM From Scratch Book](https://evm-from-scratch.xyz/content/01_intro.html)
 - [Noxx EVM 深入研究](https://noxx.substack.com/p/evm-deep-dives-the-path-to-shadowy)
 - [Solidity 插槽数据解析](https://ethdebug.github.io/solidity-data-representation/)
 - [以太坊黄皮书](https://ethereum.github.io/yellowpaper/paper.pdf)
@@ -336,7 +336,7 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 
 - [治理风险](https://arxiv.org/abs/2308.04267)
 - [DeFi 经济模型风险汇总](https://github.com/engn33r/DeFi-Risk-Modelling-Awesome)
-  - [Euler Oracle Manipulation Tool](https://oracle.euler.finance/)
+  - [Euler Oracle Manipulation Tool](https://github.com/euler-xyz/euler-oracle-tools)
   - [Chaos Lab Uniswap v3 Oracle Manipulation Risk](https://community.chaoslabs.xyz/uniswap/twap)
   - [Agent Buttercup simulation engine](https://github.com/Cozy-Finance/agent-buttercup)
   - [Curve simulation tool](https://github.com/curveresearch/curvesim)
@@ -372,14 +372,14 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 在独立审计过足够多的复杂项目，并经历过各种业务场景，沉淀了大量知识后，能够使我们快速应对突发安全事件并进行快速分析与输出。下面是一些常用的分析工具：
 
 - 合约反编译工具
-  - [Dedaub](https://library.dedaub.com/decompile)
+  - [Dedaub](https://app.dedaub.com/decompile)
   - [Panoramix](https://github.com/palkeo/panoramix)
   - [abi-decompiler](https://github.com/Decurity/abi-decompiler)
   - [heimdall-rs](https://github.com/Jon-Becker/heimdall-rs)
   - [ethervm](https://ethervm.io/decompile)
   - [Pyevmasm](https://github.com/crytic/pyevmasm)
 - 交易分析工具
-  - [Phalcon](https://explorer.phalcon.xyz/)
+  - [blocksec](https://app.blocksec.com/explorer/)
   - [ethtx.info](https://ethtx.info/)
   - [Tx eth samczsun](https://tx.eth.samczsun.com/)
   - [Tenderly](https://tenderly.co/)
@@ -454,9 +454,9 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 
 感谢朋友们对本文提出的宝贵建议。
 
-- [Cos](https://twitter.com/evilcos)
-- [23pds](https://twitter.com/IM_23pds)
-- [T41nk](https://twitter.com/T41nk_)
+- [Cos](https://x.com/evilcos)
+- [23pds](https://x.com/im23pds)
+- [T41nk](https://x.com/T41nk_)
 - Doublenine
 - Flush
 - Blue
