@@ -307,7 +307,7 @@ During an audit, an individual's perspective may miss certain aspects and cannot
 Engage in more advanced CTF challenges to test new skills and grow
 
 - [EtherHack](https://etherhack.positive.com/)
-- [SI Blockchain CTF](https://evm-from-scratch.xyz/content/01_intro.html)
+- [SI Blockchain CTF](https://github.com/SecurityInnovation/Smart-Contract-CTF)
 - [QuillCTF](https://www.quillaudits.com/academy/ctf)
 - [Curta CTF](https://www.curta.wtf/)
 - [Paradigm CTF](https://ctf.paradigm.xyz/)
@@ -324,7 +324,7 @@ Through the exploration of leading DeFi platforms, a profound understanding of D
 The EVM (Ethereum Virtual Machine) is responsible for executing smart contract instructions. A comprehensive understanding of the EVM aids in a more in-depth grasp of the deployment, invocation, execution, and data storage of smart contracts. This foundational knowledge is also pivotal for Gas optimization and discovering vulnerabilities.
 
 - [About EVM](https://www.evm.codes/about)
-- [The EVM From Scratch Book](https://evm-from-scratch.xyz/intro)
+- [The EVM From Scratch Book](https://evm-from-scratch.xyz/content/01_intro.html)
 - Noxx's [In-depth Research on EVM](https://noxx.substack.com/p/evm-deep-dives-the-path-to-shadowy) 
 - [Parsing Solidity Slot Data](https://ethdebug.github.io/solidity-data-representation/) 
 - [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
