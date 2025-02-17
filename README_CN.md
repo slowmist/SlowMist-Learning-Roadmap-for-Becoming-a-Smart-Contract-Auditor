@@ -297,7 +297,7 @@ DeFi 并不局限于智能合约，前端、后端也是其重要的组成部分
 进行较有难度的 CTF 挑战以巩固知识。
 
 - [EtherHack](https://etherhack.positive.com/)
-- [SI Blockchain CTF](https://blockchain-ctf.securityinnovation.com/)
+- [SI Blockchain CTF](https://github.com/SecurityInnovation/Smart-Contract-CTF)
 - [QuillCTF](https://www.quillaudits.com/academy/ctf)
 - [Curta CTF](https://www.curta.wtf/)
 - [Paradigm CTF](https://ctf.paradigm.xyz/)
