@@ -1,7 +1,7 @@
 By: [Kong'](https://twitter.com/TycheKong)@SlowMist Security Team
 
-中文版：**[慢雾(SlowMist)智能合约审计技能树](README_CN.md)**
-English version: **[SlowMist Learning Roadmap for Becoming a Smart Contract Auditor](README.md)**
+中文版：**[慢雾(SlowMist)智能合约审计技能树](README_CN.md)**<br>
+English version: **[SlowMist Learning Roadmap for Becoming a Smart Contract Auditor](README.md)**<br>
 
 ![cover](./res/cover.jpg)
 

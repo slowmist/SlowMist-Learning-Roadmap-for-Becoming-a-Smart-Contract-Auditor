@@ -1,7 +1,7 @@
 By:[Kong'](https://twitter.com/TycheKong)@慢雾安全团队
 
-English version: **[SlowMist Learning Roadmap for Becoming a Smart Contract Auditor](README.md)**
-日本語版: **[スマートコントラクト監査人への道筋](README_JP.md)**
+English version: **[SlowMist Learning Roadmap for Becoming a Smart Contract Auditor](README.md)**<br>
+日本語版: **[スマートコントラクト監査人への道筋](README_JP.md)**<br>
 
 ![cover](./res/cover.jpg)
 

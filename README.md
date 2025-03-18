@@ -1,7 +1,7 @@
 By: [Kong'](https://twitter.com/TycheKong)@SlowMist Security Team
 
-中文版：**[慢雾(SlowMist)智能合约审计技能树](README_CN.md)**
-日本語版: **[スマートコントラクト監査人への道筋](README_JP.md)**
+中文版：**[慢雾(SlowMist)智能合约审计技能树](README_CN.md)**<br>
+日本語版: **[スマートコントラクト監査人への道筋](README_JP.md)**<br>
 
 ![cover](./res/cover.jpg)
 
