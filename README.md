@@ -133,7 +133,7 @@ Resources and Tools for Mastering Smart Contracts with Solidity
 - Understanding what upgradable contracts/proxy contracts are
   
   * [Introduction to different proxy contract patterns](https://ethereum-blockchain-developer.com/110-upgrade-smart-contracts/00-project/)
-  * [Proxies Deep Dive](https://proxies.yacademy.dev/pages/proxies-list/)
+  * [Proxies Deep Dive](https://proxies.yacademy.dev/pages/Proxies-List/)
   * [OpenZeppelin Proxy](https://docs.openzeppelin.com/contracts/4.x/api/proxy) implementation documentation
   
 - Learning to Write Smart Contracts
@@ -168,8 +168,8 @@ Resources and Tools for Mastering Smart Contracts with Solidity
       * [Quick transaction simulations](https://docs.tenderly.co/simulations-and-forks/intro-to-simulations)
       * [Visual transaction debugging tools](https://docs.tenderly.co/debugger/how-to-use-tenderly-debugger)
     * [Sentio](https://app.sentio.xyz/explorer)
-      * [Online debugging with code insight](https://docs.sentio.xyz/sentio-debugger/code-insight) 
-      * [Simulation with contract overrides](https://docs.sentio.xyz/sentio-debugger/simulation#override-contract)
+      * [Online debugging with code insight](https://docs.sentio.xyz/docs/code-insight) 
+      * [Simulation with contract overrides](https://docs.sentio.xyz/docs/simulation#override-contract)
   * Interacting with Smart Contracts
     * Understanding [JSON-RPC](https://ethereum.org/en/developers/docs/apis/json-rpc/)
     * [ethers.js](https://docs.ethers.org/)
@@ -249,7 +249,7 @@ After an initial understanding of what DeFi is, it's important to delve deeper i
   - Protocol [Overview](https://docs.convexfinance.com/convexfinance/)
   - [Technical Documentation](https://docs.convexfinance.com/convexfinanceintegration/)
 - [Yearn Finance](https://docs.yearn.fi/getting-started/intro) (Yield Aggregator)
-- [GMX](https://gmxio.gitbook.io/gmx/) (Derivatives)
+- [GMX](https://docs.gmx.io/docs/intro/) (Derivatives)
 - [Nexus Mutual](https://docs.nexusmutual.io/overview/) (Insurance)
 - [OpenSea](https://github.com/ProjectOpenSea/seaport#seaport) (NFT Marketplace)
 - [Set Protocol](https://docs.tokensets.com/) (Index Funds)
@@ -281,14 +281,14 @@ DeFi isn't solely about smart contracts; the frontend and backend are vital comp
   - [TrailOfBits](https://blog.trailofbits.com/)
   - [Secureum](https://secureum.substack.com/)
   - [Openzeppelin](https://blog.openzeppelin.com/security-audits/)
-  - [OfferCIA](https://officercia.mirror.xyz/)
+  - [OfficerCIA](https://officercia.mirror.xyz/)
 
 ### **5. Reviewing Audit Reports**
 
 During an audit, an individual's perspective may miss certain aspects and cannot cover all scenarios. Therefore, reading other people's audit reports is crucial to learn different methods of vulnerability discovery and various auditing thought processes.
 
 - [SlowMist Audit Reports](https://github.com/slowmist/Knowledge-Base)
-- [Solodit Aggregation](https://solodit.xyz/)
+- [Solodit Aggregation](https://solodit.cyfrin.io/)
 - [Code4rena Audit Reports](https://code4rena.com/reports)
 - [Consensys Audit Reports](https://consensys.net/diligence/audits/)
 - [QuillAudits Audit Reports](https://github.com/Quillhash/QuillAudit_Reports)
@@ -308,7 +308,7 @@ During an audit, an individual's perspective may miss certain aspects and cannot
 Engage in more advanced CTF challenges to test new skills and grow
 
 - [EtherHack](https://etherhack.positive.com/)
-- [SI Blockchain CTF](https://blockchain-ctf.securityinnovation.com/)
+- [SI Blockchain CTF](https://github.com/SecurityInnovation/Smart-Contract-CTF)
 - [QuillCTF](https://www.quillaudits.com/academy/ctf)
 - [Curta CTF](https://www.curta.wtf/)
 - [Paradigm CTF](https://ctf.paradigm.xyz/)
@@ -325,7 +325,7 @@ Through the exploration of leading DeFi platforms, a profound understanding of D
 The EVM (Ethereum Virtual Machine) is responsible for executing smart contract instructions. A comprehensive understanding of the EVM aids in a more in-depth grasp of the deployment, invocation, execution, and data storage of smart contracts. This foundational knowledge is also pivotal for Gas optimization and discovering vulnerabilities.
 
 - [About EVM](https://www.evm.codes/about)
-- [The EVM From Scratch Book](https://evm-from-scratch.xyz/intro)
+- [The EVM From Scratch Book](https://evm-from-scratch.xyz/content/01_intro.html)
 - Noxx's [In-depth Research on EVM](https://noxx.substack.com/p/evm-deep-dives-the-path-to-shadowy) 
 - [Parsing Solidity Slot Data](https://ethdebug.github.io/solidity-data-representation/) 
 - [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
@@ -347,7 +347,7 @@ The economic model is a core component of DeFi products, so it's essential to un
 
 - [Governance Risks](https://arxiv.org/abs/2308.04267)
 - [Summary of Risks in DeFi Economic Models](https://github.com/engn33r/DeFi-Risk-Modelling-Awesome) 
-  - [Euler Oracle Manipulation Tool](https://oracle.euler.finance/)
+  - [Euler Oracle Manipulation Tool](https://github.com/euler-xyz/euler-oracle-tools)
   - [Chaos Lab Uniswap v3 Oracle Manipulation Risk](https://community.chaoslabs.xyz/uniswap/twap)
   - [Agent Buttercup simulation engine](https://github.com/Cozy-Finance/agent-buttercup)
   - [Curve simulation tool](https://github.com/curveresearch/curvesim)
@@ -383,14 +383,14 @@ Learning from other outstanding peers who are researching various topics can pro
 After independently auditing numerous complex projects, accumulating extensive knowledge, and experiencing various business scenarios, auditors should be able to respond quickly to unforeseen security incidents and conduct rapid analysis and reporting. Here are some commonly used analysis tools:
 
 - Contract Decompilation Tools
-  - [Dedaub](https://library.dedaub.com/decompile)
+  - [Dedaub](https://app.dedaub.com/decompile)
   - [Panoramix](https://github.com/palkeo/panoramix)
   - [abi-decompiler](https://github.com/Decurity/abi-decompiler)
   - [heimdall-rs](https://github.com/Jon-Becker/heimdall-rs)
   - [ethervm](https://ethervm.io/decompile)
   - [Pyevmasm](https://github.com/crytic/pyevmasm)
 - Transaction Analysis Tools
-  - [Phalcon](https://explorer.phalcon.xyz/)
+  - [blocksec](https://app.blocksec.com/explorer/)
   - [ethtx.info](https://ethtx.info/)
   - [Tx eth samczsun](https://tx.eth.samczsun.com/)
   - [Tenderly](https://tenderly.co/)
@@ -461,9 +461,9 @@ Creativity is the weapon that allows us to conquer challenges and the essential 
 
 Special thanks to friends who provided valuable feedback:
 
-- [Cos](https://twitter.com/evilcos)
-- [23pds](https://twitter.com/IM_23pds)
-- [T41nk](https://twitter.com/T41nk_)
+- [Cos](https://x.com/evilcos)
+- [23pds](https://x.com/im23pds)
+- [T41nk](https://x.com/T41nk_)
 - Doublenine
 - Flush
 - Blue
