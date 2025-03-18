@@ -1,6 +1,7 @@
 By:[Kong'](https://twitter.com/TycheKong)@慢雾安全团队
 
 English version: **[SlowMist Learning Roadmap for Becoming a Smart Contract Auditor](README.md)**
+日本語版: **[スマートコントラクト監査人への道筋](README_JP.md)**
 
 ![cover](./res/cover.jpg)
 
@@ -35,6 +36,7 @@ English version: **[SlowMist Learning Roadmap for Becoming a Smart Contract Audi
     - [**7. Bug Bounty 实战**](#7-bug-bounty-实战)
 - [**破门而出**](#破门而出)
     - [**1. 突破局限**](#1-突破局限)
+      - [突破与沉淀](#突破与沉淀)
     - [**2. 方法论**](#2-方法论)
     - [**3. 创造力**](#3-创造力)
 - [**致谢**](#致谢)
@@ -417,6 +419,25 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 - 不只局限于区块链，Web2.0/移动端等也应了解
 - 深入了解密码学领域
 - ...
+
+##### 突破与沉淀
+
+以下是 SlowMist 部分已公开的沉淀:
+
+- [基于区块链的加密货币安全审计指南](https://github.com/slowmist/Cryptocurrency-Security-Audit-Guide/)
+- [Web3 项目安全实践要求](https://github.com/slowmist/Web3-Project-Security-Practice-Requirements)
+- [移动端安全审计知识库](https://github.com/slowmist/Mobile_Security)
+- [EOS 智能合约最佳安全开发指南](https://github.com/slowmist/eos-smart-contract-security-best-practices)
+- [Solana 智能合约安全最佳实践](https://github.com/slowmist/solana-smart-contract-security-best-practices)
+- [APTOS MOVE 智能合约审计入门](https://github.com/slowmist/APTOS-MOVE-Smart-Contract-Auditing-Primer)
+- [zk-SNARK Groth16 详解](https://github.com/slowmist/zkSnark-Groth16-Getting-Started)
+- [Cairo 0 安全审计实践指南](https://github.com/slowmist/Cairo0-Security-Audit-Practice-Guide)
+- [账户抽象安全审计 checklist](https://github.com/slowmist/Account-Abstraction-Security-Audit-Checklist)
+- [初识 TON：账号、Token、交易与资产安全](https://mp.weixin.qq.com/s/ElLcWlp6BCWhq1z6K3a1vw)
+- [Toncoin 智能合约安全最佳实践](https://github.com/slowmist/Toncoin-Smart-Contract-Security-Best-Practices)
+- [探索 Sui：高性能背后的技术与合约安全](https://mp.weixin.qq.com/s/OApdZkZVfh4WohOq4X1sgg)
+- ...
+
 
 #### **2. 方法论**
 
