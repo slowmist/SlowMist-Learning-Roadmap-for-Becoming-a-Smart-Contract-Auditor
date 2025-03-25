@@ -2,6 +2,10 @@ By: [Kong'](https://twitter.com/TycheKong)@SlowMist Security Team
 
 中文版：**[慢雾(SlowMist)智能合约审计技能树](README_CN.md)**<br>
 English version: **[SlowMist Learning Roadmap for Becoming a Smart Contract Auditor](README.md)**<br>
+日本語版：**[スマートコントラクト監査人への道筋](README_JP.md)**<br>
+
+翻訳者: 
+>[Jack Jia](https://x.com/JackJia2021)
 
 ![cover](./res/cover.jpg)
 
@@ -97,7 +101,7 @@ English version: **[SlowMist Learning Roadmap for Becoming a Smart Contract Audi
 
 - [ブロックチェーンとは？](https://www.investopedia.com/terms/b/blockchain.asp)
 - [ブロックチェーンの可視化デモ](https://www.youtube.com/watch?v=_160oMzblY8)
-- [•SlowMistのブロックチェーン基礎知識*](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4ODQ3NTM2OA==&action=getalbum&album_id=1378673890158936067&scene=126#wechat_redirect)
+- [SlowMistのブロックチェーン基礎知識](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4ODQ3NTM2OA==&action=getalbum&album_id=1378673890158936067&scene=126#wechat_redirect)
 - [暗号資産の仕組み](https://www.bilibili.com/video/BV11x411i72w/)
 - [Mastering Bitcoin](https://github.com/inoutcode/bitcoin_book_2nd)
 - [Mastering Ethereum](https://github.com/inoutcode/ethereum_book)
@@ -413,6 +417,25 @@ Solidityスマートコントラクトの入門を終えた後、それに限定
 - スマートコントラクトに限定せず、BTC、Cosmos、Solana、Starknet、EVM L2など、他の人気のパブリックチェーンについても理解しておくべきく。  
 - ブロックチェーンに限定せず、Web2.0やモバイル端末などについても理解しておくべきく。  
 - 暗号学の分野を深く理解する。
+- ...
+
+##### ブレークスルーと蓄積
+
+以下の SlowMist の一部公開済みの蓄積内容:
+
+- [ブロックチェーンに基づく暗号資産のセキュリティ監査ガイドライン](https://github.com/slowmist/Cryptocurrency-Security-Audit-Guide/blob/main/README_JP.md)
+- [Web3プロジェクトのセキュリティベストプラクティス要件](https://github.com/slowmist/Web3-Project-Security-Practice-Requirements/blob/main/README_ja_JP.md)
+- モバイル向けセキュリティ監査ナレッジベース
+- [EOSスマートコントラクトの安全な開発ベストプラクティス](https://github.com/slowmist/eos-smart-contract-security-best-practices/blob/master/README_EN.md)
+- [Solanaスマートコントラクトのセキュリティベストプラクティス](https://github.com/slowmist/solana-smart-contract-security-best-practices)
+- [APTOS MOVEスマートコントラクト監査入門](https://github.com/slowmist/APTOS-MOVE-Smart-Contract-Auditing-Primer)
+- [zk-SNARK Groth16 詳解](https://github.com/slowmist/zkSnark-Groth16-Getting-Started)
+- [Cairo 0 セキュリティ監査ベストプラクティス](https://github.com/slowmist/Cairo0-Security-Audit-Practice-Guide)
+- [アカウントアブストラクションのセキュリティ監査チェックリスト](https://github.com/slowmist/Account-Abstraction-Security-Audit-Checklist)
+- [初めてのTON：アカウント、トークン、トランザクション、および資産のセキュリティ](https://mp.weixin.qq.com/s/ElLcWlp6BCWhq1z6K3a1vw)
+- [Toncoinスマートコントラクトのセキュリティベストプラクティス](https://github.com/slowmist/Toncoin-Smart-Contract-Security-Best-Practices)
+- [Suiの深掘り：高性能を支える技術とスマートコントラクトのセキュリティ](https://mp.weixin.qq.com/s/OApdZkZVfh4WohOq4X1sgg)
+- ...
 
 #### **2. 方法論**
 
@@ -455,5 +478,4 @@ Solidityスマートコントラクトの入門を終えた後、それに限定
 - Blue
 - Lizi
 
-また、英文版の翻訳作業を担当してくれたJian、そしてカバーイラストを提供してくれたHik3にも感謝する。
-@JackJia2021(https://x.com/jackjia2021/) さんによる日本語版の記事の専門的な翻訳に心より感謝申し上げます。
+また、英文版の翻訳作業を担当してくれたJianさん、そしてカバーイラストを提供してくれたHik3さん、日本語版の記事の専門的な翻訳を担当してくれたJackさんにも感謝する。
