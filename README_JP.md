@@ -40,6 +40,7 @@ English version: **[SlowMist Learning Roadmap for Becoming a Smart Contract Audi
     - [**7. バグバウンティ実践**](#7-バグバウンティ実践)
 - [最上級](#最上級)
     - [**1. 局限突破**](#1-局限突破)
+      - [ブレークスルーと蓄積](#ブレークスルーと蓄積)
     - [**2. 方法論**](#2-方法論)
     - [**3. 創造力**](#3-創造力)
 - [**謝辞**](#謝辞)
@@ -425,7 +426,6 @@ Solidityスマートコントラクトの入門を終えた後、それに限定
 
 - [ブロックチェーンに基づく暗号資産のセキュリティ監査ガイドライン](https://github.com/slowmist/Cryptocurrency-Security-Audit-Guide/blob/main/README_JP.md)
 - [Web3プロジェクトのセキュリティベストプラクティス要件](https://github.com/slowmist/Web3-Project-Security-Practice-Requirements/blob/main/README_ja_JP.md)
-- モバイル向けセキュリティ監査ナレッジベース
 - [EOSスマートコントラクトの安全な開発ベストプラクティス](https://github.com/slowmist/eos-smart-contract-security-best-practices/blob/master/README_EN.md)
 - [Solanaスマートコントラクトのセキュリティベストプラクティス](https://github.com/slowmist/solana-smart-contract-security-best-practices)
 - [APTOS MOVEスマートコントラクト監査入門](https://github.com/slowmist/APTOS-MOVE-Smart-Contract-Auditing-Primer)

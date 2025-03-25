@@ -426,7 +426,6 @@ EVM 负责执行智能合约指令，深入了解 EVM 有助于我们对智能�
 
 - [基于区块链的加密货币安全审计指南](https://github.com/slowmist/Cryptocurrency-Security-Audit-Guide/)
 - [Web3 项目安全实践要求](https://github.com/slowmist/Web3-Project-Security-Practice-Requirements)
-- [移动端安全审计知识库](https://github.com/slowmist/Mobile_Security)
 - [EOS 智能合约最佳安全开发指南](https://github.com/slowmist/eos-smart-contract-security-best-practices)
 - [Solana 智能合约安全最佳实践](https://github.com/slowmist/solana-smart-contract-security-best-practices)
 - [APTOS MOVE 智能合约审计入门](https://github.com/slowmist/APTOS-MOVE-Smart-Contract-Auditing-Primer)
